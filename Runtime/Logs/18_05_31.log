@@ -1,0 +1,764 @@
+[ 2018-05-31T21:21:54+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000691s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002365s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.036867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002976s ]
+
+[ 2018-05-31T21:21:57+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002439s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.032079s ]
+SQL: SHOW COLUMNS FROM `gjw_member` [ RunTime:0.030850s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status` FROM `gjw_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.033046s ]
+SQL: SHOW COLUMNS FROM `gjw_action` [ RunTime:0.030731s ]
+SQL: SELECT * FROM `gjw_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.030511s ]
+SQL: SHOW COLUMNS FROM `gjw_action_log` [ RunTime:0.031121s ]
+SQL: INSERT INTO `gjw_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (1,1,2130706433,'member',1,1527772916,'admin在2018-05-31 21:21登录了后台') [ RunTime:0.030266s ]
+SQL: SELECT * FROM `gjw_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.030513s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\jjw\Application\Common\Common\function.php 第 665 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\wamp\www\jjw\Application\Common\Common\function.php 第 665 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_action_log` WHERE ( `action_id` = 1 ) AND ( `user_id` = 1 ) AND ( `create_time` > 1527686516 ) LIMIT 1   [ RunTime:0.030549s ]
+SQL: UPDATE `gjw_member` SET `login`=`login`+1,`last_login_time`=1527772916,`last_login_ip`='2130706433' WHERE ( `uid` = 1 ) [ RunTime:0.030860s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_store` [ RunTime:0.030706s ]
+SQL: SELECT * FROM `gjw_jjw_store` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.030821s ]
+
+[ 2018-05-31T21:21:58+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/index.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032543s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032073s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/index%' ) LIMIT 1   [ RunTime:0.030767s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032328s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=173 ) LIMIT 1   [ RunTime:0.030908s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 173 )  [ RunTime:0.030761s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 173 ) AND ( `hide` = 0 )  [ RunTime:0.031048s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '商品管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031197s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '规格管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031786s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '分类管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031384s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '订单管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030955s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '撒' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030832s ]
+SQL: SHOW COLUMNS FROM `gjw_yzg_use_remark` [ RunTime:0.032104s ]
+NOTIC: [8] Undefined index: where D:\wamp\www\jjw\Application\Admin\Controller\AdminController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_yzg_use_remark` LIMIT 1   [ RunTime:0.031164s ]
+SQL: SELECT `id`,`name`,`url_path`,`remark`,`create_at` FROM `gjw_yzg_use_remark` ORDER BY id desc LIMIT 0,10   [ RunTime:0.031005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000865s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002685s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.169381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.172430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000989s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003348s ]
+
+[ 2018-05-31T21:22:06+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/index.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.031194s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029889s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/index%' ) LIMIT 1   [ RunTime:0.031071s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.031134s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=173 ) LIMIT 1   [ RunTime:0.030636s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 173 )  [ RunTime:0.030485s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 173 ) AND ( `hide` = 0 )  [ RunTime:0.030428s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '商品管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '规格管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030849s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '分类管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.037603s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '订单管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031048s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '撒' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.037618s ]
+SQL: SHOW COLUMNS FROM `gjw_yzg_use_remark` [ RunTime:0.036516s ]
+NOTIC: [8] Undefined index: where D:\wamp\www\jjw\Application\Admin\Controller\AdminController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_yzg_use_remark` LIMIT 1   [ RunTime:0.030479s ]
+SQL: SELECT `id`,`name`,`url_path`,`remark`,`create_at` FROM `gjw_yzg_use_remark` ORDER BY id desc LIMIT 0,10   [ RunTime:0.030732s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000778s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002393s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.161004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.162776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002762s ]
+
+[ 2018-05-31T21:22:07+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/index.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032152s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031728s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/index%' ) LIMIT 1   [ RunTime:0.031380s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.031639s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=173 ) LIMIT 1   [ RunTime:0.032223s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 173 )  [ RunTime:0.033054s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 173 ) AND ( `hide` = 0 )  [ RunTime:0.032822s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '商品管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.039424s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '规格管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032537s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '分类管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032265s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '订单管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.035420s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '撒' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031266s ]
+SQL: SHOW COLUMNS FROM `gjw_yzg_use_remark` [ RunTime:0.031818s ]
+NOTIC: [8] Undefined index: where D:\wamp\www\jjw\Application\Admin\Controller\AdminController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_yzg_use_remark` LIMIT 1   [ RunTime:0.031267s ]
+SQL: SELECT `id`,`name`,`url_path`,`remark`,`create_at` FROM `gjw_yzg_use_remark` ORDER BY id desc LIMIT 0,10   [ RunTime:0.031416s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003513s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.155704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.157352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003859s ]
+
+[ 2018-05-31T21:22:12+08:00 ] 127.0.0.1 /index.php?s=/Admin/Shop/index.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.031392s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030365s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%Shop/index%' ) LIMIT 1   [ RunTime:0.030058s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030923s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=138 ) LIMIT 1   [ RunTime:0.029892s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 138 )  [ RunTime:0.029568s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 138 ) AND ( `hide` = 0 )  [ RunTime:0.029737s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '店铺管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.035495s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '会员管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030717s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '利润分配管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031226s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '活动管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031531s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '广告管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030385s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_store` [ RunTime:0.031928s ]
+SQL: SELECT * FROM `gjw_jjw_store`  [ RunTime:0.032019s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.031685s ]
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=4 ) LIMIT 1   [ RunTime:0.030912s ]
+SQL: SHOW COLUMNS FROM `gjw_user` [ RunTime:0.031663s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid=10022 ) LIMIT 1   [ RunTime:0.030237s ]
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=5 ) LIMIT 1   [ RunTime:0.030466s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.030826s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=7 ) LIMIT 1   [ RunTime:0.030581s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid=10026 ) LIMIT 1   [ RunTime:0.030630s ]
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=8 ) LIMIT 1   [ RunTime:0.030805s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid=10045 ) LIMIT 1   [ RunTime:0.030802s ]
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=9 ) LIMIT 1   [ RunTime:0.031067s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.030725s ]
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=10 ) LIMIT 1   [ RunTime:0.030919s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid=10129 ) LIMIT 1   [ RunTime:0.030631s ]
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=11 ) LIMIT 1   [ RunTime:0.030413s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.029604s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=14 ) LIMIT 1   [ RunTime:0.030008s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.029876s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=15 ) LIMIT 1   [ RunTime:0.030017s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.029927s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=16 ) LIMIT 1   [ RunTime:0.030941s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.029954s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=17 ) LIMIT 1   [ RunTime:0.029848s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.029812s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=18 ) LIMIT 1   [ RunTime:0.029711s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.029548s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=19 ) LIMIT 1   [ RunTime:0.030061s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.029671s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000821s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002757s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 5 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined variable: _page D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 153 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.255049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.257768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003857s ]
+
+[ 2018-05-31T21:22:15+08:00 ] 127.0.0.1 /index.php?s=/Admin/User/updatePassword.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030849s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030910s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%User/updatepassword%' ) LIMIT 1   [ RunTime:0.031210s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.031405s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=108 ) LIMIT 1   [ RunTime:0.030963s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.030896s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 16 )  [ RunTime:0.032137s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 16 ) AND ( `hide` = 0 )  [ RunTime:0.031521s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '用户管理' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030649s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '行为管理' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030775s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030584s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000762s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002350s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.147380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.149705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000804s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003564s ]
+
+[ 2018-05-31T21:22:34+08:00 ] 127.0.0.1 /index.php?s=/Admin/User/submitPassword.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002539s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030392s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030132s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%User/submitpassword%' ) LIMIT 1   [ RunTime:0.029609s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.035007s ]
+SQL: SELECT `password` FROM `gjw_ucenter_member` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.032401s ]
+
+[ 2018-05-31T21:22:38+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000712s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002432s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.025940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002717s ]
+
+[ 2018-05-31T21:22:45+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002454s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.032218s ]
+SQL: SHOW COLUMNS FROM `gjw_member` [ RunTime:0.031951s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status` FROM `gjw_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.032444s ]
+SQL: SHOW COLUMNS FROM `gjw_action` [ RunTime:0.033054s ]
+SQL: SELECT * FROM `gjw_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.032859s ]
+SQL: SHOW COLUMNS FROM `gjw_action_log` [ RunTime:0.033772s ]
+SQL: INSERT INTO `gjw_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (1,1,2130706433,'member',1,1527772964,'admin在2018-05-31 21:22登录了后台') [ RunTime:0.032686s ]
+SQL: SELECT * FROM `gjw_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.033088s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\jjw\Application\Common\Common\function.php 第 665 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\wamp\www\jjw\Application\Common\Common\function.php 第 665 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_action_log` WHERE ( `action_id` = 1 ) AND ( `user_id` = 1 ) AND ( `create_time` > 1527686564 ) LIMIT 1   [ RunTime:0.032279s ]
+SQL: UPDATE `gjw_member` SET `login`=`login`+1,`last_login_time`=1527772964,`last_login_ip`='2130706433' WHERE ( `uid` = 1 ) [ RunTime:0.031631s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_store` [ RunTime:0.032829s ]
+SQL: SELECT * FROM `gjw_jjw_store` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.032175s ]
+
+[ 2018-05-31T21:22:46+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/index.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032242s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.034978s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/index%' ) LIMIT 1   [ RunTime:0.032262s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032455s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=173 ) LIMIT 1   [ RunTime:0.032501s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 173 )  [ RunTime:0.031231s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 173 ) AND ( `hide` = 0 )  [ RunTime:0.031520s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '商品管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031484s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '规格管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031713s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '分类管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031779s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '订单管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031203s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '撒' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031931s ]
+SQL: SHOW COLUMNS FROM `gjw_yzg_use_remark` [ RunTime:0.031319s ]
+NOTIC: [8] Undefined index: where D:\wamp\www\jjw\Application\Admin\Controller\AdminController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_yzg_use_remark` LIMIT 1   [ RunTime:0.031009s ]
+SQL: SELECT `id`,`name`,`url_path`,`remark`,`create_at` FROM `gjw_yzg_use_remark` ORDER BY id desc LIMIT 0,10   [ RunTime:0.032103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000723s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002252s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.179609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.183437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003277s ]
+
+[ 2018-05-31T21:26:03+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000898s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002639s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.025151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002630s ]
+
+[ 2018-05-31T21:26:05+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002443s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.031620s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.031101s ]
+
+[ 2018-05-31T21:26:11+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002497s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.029240s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.028677s ]
+
+[ 2018-05-31T21:26:45+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000667s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002305s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.025698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003058s ]
+
+[ 2018-05-31T21:26:49+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002439s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.032486s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.032473s ]
+
+[ 2018-05-31T21:27:04+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003327s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.032738s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.032128s ]
+
+[ 2018-05-31T21:27:39+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002490s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.030711s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.030920s ]
+
+[ 2018-05-31T21:29:56+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000879s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003255s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003307s ]
+
+[ 2018-05-31T21:29:57+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000733s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002786s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.030249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002970s ]
+
+[ 2018-05-31T21:29:59+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002490s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.031505s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.031568s ]
+
+[ 2018-05-31T21:31:09+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000933s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002966s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.027798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001013s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002947s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002850s ]
+
+[ 2018-05-31T21:31:14+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002445s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.030779s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.030367s ]
+
+[ 2018-05-31T21:31:21+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003276s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.030305s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.030009s ]
+
+[ 2018-05-31T21:31:24+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000737s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002563s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005204s ]
+
+[ 2018-05-31T21:31:29+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002822s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.030543s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.029878s ]
+
+[ 2018-05-31T21:31:31+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002530s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.034507s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.034070s ]
+
+[ 2018-05-31T21:33:03+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000763s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002334s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.025992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000958s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002607s ]
+
+[ 2018-05-31T21:33:05+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002510s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.031947s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.031743s ]
+
+[ 2018-05-31T21:33:06+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002856s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.031380s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.030821s ]
+
+[ 2018-05-31T21:33:21+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002494s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.033161s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'wuguangwang' ) LIMIT 1   [ RunTime:0.032788s ]
+
+[ 2018-05-31T21:34:05+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000766s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002938s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001958s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002745s ]
+
+[ 2018-05-31T21:34:07+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002454s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.032987s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.032472s ]
+
+[ 2018-05-31T21:34:09+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002695s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.033470s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.042377s ]
+
+[ 2018-05-31T21:34:17+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000681s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002395s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.026575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002658s ]
+
+[ 2018-05-31T21:34:22+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003208s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.031160s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.030947s ]
+
+[ 2018-05-31T21:34:23+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004426s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.038844s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.033549s ]
+
+[ 2018-05-31T21:34:41+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003008s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.031819s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'wuguangwang' ) LIMIT 1   [ RunTime:0.031550s ]
+
+[ 2018-05-31T21:34:46+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002662s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.029931s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'wuguangwang' ) LIMIT 1   [ RunTime:0.029713s ]
+
+[ 2018-05-31T21:34:48+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004350s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.030115s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'wuguangwang' ) LIMIT 1   [ RunTime:0.029379s ]
+
+[ 2018-05-31T21:34:48+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002584s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.034457s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'wuguangwang' ) LIMIT 1   [ RunTime:0.033713s ]
+
+[ 2018-05-31T21:34:49+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002661s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.032531s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'wuguangwang' ) LIMIT 1   [ RunTime:0.033322s ]
+
+[ 2018-05-31T21:34:50+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002624s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.032456s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'wuguangwang' ) LIMIT 1   [ RunTime:0.031501s ]
+
+[ 2018-05-31T21:34:50+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002410s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.030994s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'wuguangwang' ) LIMIT 1   [ RunTime:0.030724s ]
+
+[ 2018-05-31T21:34:51+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003142s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.032578s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'wuguangwang' ) LIMIT 1   [ RunTime:0.032257s ]
+
+[ 2018-05-31T21:34:52+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002920s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.029975s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'wuguangwang' ) LIMIT 1   [ RunTime:0.029412s ]
+
+[ 2018-05-31T21:35:31+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004444s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.034735s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'wuguangwang' ) LIMIT 1   [ RunTime:0.032531s ]
+
+[ 2018-05-31T21:35:32+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002514s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.031367s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'wuguangwang' ) LIMIT 1   [ RunTime:0.032294s ]
+
+[ 2018-05-31T21:35:33+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002651s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.031777s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'wuguangwang' ) LIMIT 1   [ RunTime:0.032081s ]
+
+[ 2018-05-31T21:36:54+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002741s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.032861s ]
+
+[ 2018-05-31T21:39:09+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004329s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.032583s ]
+
+[ 2018-05-31T21:39:25+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002718s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.032716s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'wuguangwang' ) LIMIT 1   [ RunTime:0.031388s ]
+
+[ 2018-05-31T21:40:40+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002918s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.029433s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'wuguangwang' ) LIMIT 1   [ RunTime:0.030102s ]
+
+[ 2018-05-31T21:41:01+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003494s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.033839s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'wuguangwang' ) LIMIT 1   [ RunTime:0.033643s ]
+
+[ 2018-05-31T21:41:48+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.031163s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.031830s ]
+
+[ 2018-05-31T21:42:06+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003694s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.032485s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.032506s ]
+SQL: UPDATE `gjw_ucenter_member` SET `last_login_time`=1527774125,`last_login_ip`='2130706433' WHERE ( `id` = 1 ) [ RunTime:0.032047s ]
+SQL: SHOW COLUMNS FROM `gjw_member` [ RunTime:0.032654s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status` FROM `gjw_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.032423s ]
+SQL: SHOW COLUMNS FROM `gjw_action` [ RunTime:0.032453s ]
+SQL: SELECT * FROM `gjw_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.032098s ]
+SQL: SHOW COLUMNS FROM `gjw_action_log` [ RunTime:0.032645s ]
+SQL: INSERT INTO `gjw_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (1,1,2130706433,'member',1,1527774125,'admin在2018-05-31 21:42登录了后台') [ RunTime:0.031920s ]
+SQL: SELECT * FROM `gjw_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.031776s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\jjw\Application\Common\Common\function.php 第 665 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\wamp\www\jjw\Application\Common\Common\function.php 第 665 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_action_log` WHERE ( `action_id` = 1 ) AND ( `user_id` = 1 ) AND ( `create_time` > 1527687725 ) LIMIT 1   [ RunTime:0.032108s ]
+SQL: UPDATE `gjw_member` SET `login`=`login`+1,`last_login_time`=1527774125,`last_login_ip`='2130706433' WHERE ( `uid` = 1 ) [ RunTime:0.031534s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_store` [ RunTime:0.031926s ]
+SQL: SELECT * FROM `gjw_jjw_store` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.033397s ]
+
+[ 2018-05-31T21:42:07+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/index.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030650s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030565s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/index%' ) LIMIT 1   [ RunTime:0.030215s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030480s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=173 ) LIMIT 1   [ RunTime:0.030155s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 173 )  [ RunTime:0.030127s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 173 ) AND ( `hide` = 0 )  [ RunTime:0.029941s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '商品管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030206s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '规格管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030056s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '分类管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029612s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '订单管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031047s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '撒' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030178s ]
+SQL: SHOW COLUMNS FROM `gjw_yzg_use_remark` [ RunTime:0.029946s ]
+NOTIC: [8] Undefined index: where D:\wamp\www\jjw\Application\Admin\Controller\AdminController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_yzg_use_remark` LIMIT 1   [ RunTime:0.029789s ]
+SQL: SELECT `id`,`name`,`url_path`,`remark`,`create_at` FROM `gjw_yzg_use_remark` ORDER BY id desc LIMIT 0,10   [ RunTime:0.030178s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000884s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002885s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.158405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000935s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003392s ]
+
+[ 2018-05-31T21:42:11+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/index.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030333s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029961s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/index%' ) LIMIT 1   [ RunTime:0.029562s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030089s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=173 ) LIMIT 1   [ RunTime:0.029588s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 173 )  [ RunTime:0.030055s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 173 ) AND ( `hide` = 0 )  [ RunTime:0.030037s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '商品管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030103s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '规格管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029932s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '分类管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030394s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '订单管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030320s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '撒' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030279s ]
+SQL: SHOW COLUMNS FROM `gjw_yzg_use_remark` [ RunTime:0.030407s ]
+NOTIC: [8] Undefined index: where D:\wamp\www\jjw\Application\Admin\Controller\AdminController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_yzg_use_remark` LIMIT 1   [ RunTime:0.030063s ]
+SQL: SELECT `id`,`name`,`url_path`,`remark`,`create_at` FROM `gjw_yzg_use_remark` ORDER BY id desc LIMIT 0,10   [ RunTime:0.030559s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000989s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003060s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.158126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004005s ]
+

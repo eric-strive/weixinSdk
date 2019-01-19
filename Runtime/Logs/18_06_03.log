@@ -1,0 +1,165 @@
+[ 2018-06-03T10:26:57+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shopping/details/product_id/21.html
+ERR: Think\Model:getConsumePayÊñπÊ≥ï‰∏çÂ≠òÂú®ÔºÅ
+
+[ 2018-06-03T13:13:05+08:00 ] 127.0.0.1 /index.php?s=/Home/Usercenter/rechargewithdraw.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003824s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_rechargewithdraw` [ RunTime:0.031999s ]
+SQL: INSERT INTO `gjw_jjw_rechargewithdraw` (`bandcard`,`weicode`,`alipay`,`paytype`,`money`,`realname`,`u_id`,`addtime`) VALUES ('235','','',0,0,'2323',271,1528002782) [ RunTime:0.031547s ]
+
+[ 2018-06-03T13:13:08+08:00 ] 127.0.0.1 /index.php?s=/Home/Usercenter/rechargewithdraw.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003011s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_rechargewithdraw` [ RunTime:0.033439s ]
+SQL: INSERT INTO `gjw_jjw_rechargewithdraw` (`bandcard`,`weicode`,`alipay`,`paytype`,`money`,`realname`,`u_id`,`addtime`) VALUES ('235','','',0,0,'2323',271,1528002785) [ RunTime:0.278192s ]
+
+[ 2018-06-03T13:13:09+08:00 ] 127.0.0.1 /index.php?s=/Home/Usercenter/rechargewithdraw.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002792s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_rechargewithdraw` [ RunTime:0.030954s ]
+SQL: INSERT INTO `gjw_jjw_rechargewithdraw` (`bandcard`,`weicode`,`alipay`,`paytype`,`money`,`realname`,`u_id`,`addtime`) VALUES ('235','','',0,0,'2323',271,1528002788) [ RunTime:0.278308s ]
+
+[ 2018-06-03T13:13:09+08:00 ] 127.0.0.1 /index.php?s=/Home/Usercenter/rechargewithdraw.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002934s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_rechargewithdraw` [ RunTime:0.279366s ]
+SQL: INSERT INTO `gjw_jjw_rechargewithdraw` (`bandcard`,`weicode`,`alipay`,`paytype`,`money`,`realname`,`u_id`,`addtime`) VALUES ('235','','',0,0,'2323',271,1528002789) [ RunTime:0.036518s ]
+
+[ 2018-06-03T13:13:30+08:00 ] 127.0.0.1 /index.php?s=/Home/Usercenter/rechargewithdraw.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002926s ]
+NOTIC: [2] mysqli::mysqli():  D:\wamp\www\jjw\ThinkPHP\Library\Think\Db\Driver\Mysqli.class.php Á¨¨ 44 Ë°å.
+ERR: ”…”⁄¡¨Ω”∑Ω‘⁄“ª∂Œ ±º‰∫Û√ª”–’˝»∑¥∏¥ªÚ¡¨Ω”µƒ÷˜ª˙√ª”–∑¥”¶£¨¡¨Ω”≥¢ ‘ ß∞‹°£
+
+
+[ 2018-06-03T13:13:31+08:00 ] 127.0.0.1 /index.php?s=/Home/Usercenter/rechargewithdraw.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003174s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_rechargewithdraw` [ RunTime:0.031273s ]
+SQL: INSERT INTO `gjw_jjw_rechargewithdraw` (`bandcard`,`weicode`,`alipay`,`paytype`,`money`,`realname`,`u_id`,`addtime`) VALUES ('235','','',0,0,'2323',271,1528002810) [ RunTime:0.030311s ]
+
+[ 2018-06-03T13:13:31+08:00 ] 127.0.0.1 /index.php?s=/Home/Usercenter/rechargewithdraw.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003827s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_rechargewithdraw` [ RunTime:0.031700s ]
+SQL: INSERT INTO `gjw_jjw_rechargewithdraw` (`bandcard`,`weicode`,`alipay`,`paytype`,`money`,`realname`,`u_id`,`addtime`) VALUES ('235','','',0,0,'2323',271,1528002811) [ RunTime:0.032422s ]
+
+[ 2018-06-03T13:30:53+08:00 ] 127.0.0.1 /index.php?s=/Home/Usercenter/rechargewithdraw.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002936s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.031236s ]
+SQL: SELECT * FROM `gjw_jjw_userinfo` WHERE ( id=271 ) LIMIT 1   [ RunTime:0.031398s ]
+SQL: UPDATE `gjw_jjw_userinfo` SET `balance`=balance-10 WHERE ( id=271 ) [ RunTime:0.278609s ]
+SQL: UPDATE `gjw_jjw_userinfo` SET `freeze_money`=freeze_money+10 WHERE ( id=271 ) [ RunTime:0.277167s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_rechargewithdraw` [ RunTime:0.031346s ]
+SQL: INSERT INTO `gjw_jjw_rechargewithdraw` (`bandcard`,`weicode`,`alipay`,`paytype`,`money`,`realname`,`u_id`,`addtime`) VALUES ('111111','','',0,10,'wangwei',271,1528003852) [ RunTime:0.030014s ]
+
+[ 2018-06-03T13:30:54+08:00 ] 127.0.0.1 /index.php?s=/Home/Usercenter/rechargewithdraw.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003981s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.031143s ]
+SQL: SELECT * FROM `gjw_jjw_userinfo` WHERE ( id=271 ) LIMIT 1   [ RunTime:0.273829s ]
+SQL: UPDATE `gjw_jjw_userinfo` SET `balance`=balance-10 WHERE ( id=271 ) [ RunTime:0.276944s ]
+SQL: UPDATE `gjw_jjw_userinfo` SET `freeze_money`=freeze_money+10 WHERE ( id=271 ) [ RunTime:0.038961s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_rechargewithdraw` [ RunTime:0.031429s ]
+SQL: INSERT INTO `gjw_jjw_rechargewithdraw` (`bandcard`,`weicode`,`alipay`,`paytype`,`money`,`realname`,`u_id`,`addtime`) VALUES ('111111','','',0,10,'wangwei',271,1528003854) [ RunTime:0.032793s ]
+
+[ 2018-06-03T13:30:55+08:00 ] 127.0.0.1 /index.php?s=/Home/Usercenter/rechargewithdraw.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003426s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.031532s ]
+SQL: SELECT * FROM `gjw_jjw_userinfo` WHERE ( id=271 ) LIMIT 1   [ RunTime:0.031671s ]
+SQL: UPDATE `gjw_jjw_userinfo` SET `balance`=balance-10 WHERE ( id=271 ) [ RunTime:0.031606s ]
+SQL: UPDATE `gjw_jjw_userinfo` SET `freeze_money`=freeze_money+10 WHERE ( id=271 ) [ RunTime:0.031173s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_rechargewithdraw` [ RunTime:0.031743s ]
+SQL: INSERT INTO `gjw_jjw_rechargewithdraw` (`bandcard`,`weicode`,`alipay`,`paytype`,`money`,`realname`,`u_id`,`addtime`) VALUES ('111111','','',0,10,'wangwei',271,1528003855) [ RunTime:0.031768s ]
+
+[ 2018-06-03T13:33:42+08:00 ] 127.0.0.1 /index.php?s=/Home/Usercenter/rechargewithdraw.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003045s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.029759s ]
+SQL: SELECT * FROM `gjw_jjw_userinfo` WHERE ( id=271 ) LIMIT 1   [ RunTime:0.029248s ]
+SQL: UPDATE `gjw_jjw_userinfo` SET `balance`=balance-4 WHERE ( id=271 ) [ RunTime:0.031791s ]
+SQL: UPDATE `gjw_jjw_userinfo` SET `freeze_money`=freeze_money+4 WHERE ( id=271 ) [ RunTime:0.272272s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_rechargewithdraw` [ RunTime:0.272377s ]
+SQL: INSERT INTO `gjw_jjw_rechargewithdraw` (`bandcard`,`weicode`,`alipay`,`paytype`,`money`,`realname`,`u_id`,`addtime`) VALUES ('489651896548','','',0,4,'Ê±™Â®Å',271,1528004022) [ RunTime:0.030170s ]
+
+[ 2018-06-03T13:36:39+08:00 ] 127.0.0.1 /index.php?s=/Home/Usercenter/rechargewithdraw.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003557s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.029648s ]
+SQL: SELECT * FROM `gjw_jjw_userinfo` WHERE ( id=271 ) LIMIT 1   [ RunTime:0.028712s ]
+SQL: UPDATE `gjw_jjw_userinfo` SET `balance`=balance-9 WHERE ( id=271 ) [ RunTime:0.033423s ]
+SQL: UPDATE `gjw_jjw_userinfo` SET `freeze_money`=freeze_money+9 WHERE ( id=271 ) [ RunTime:0.028659s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_rechargewithdraw` [ RunTime:0.028792s ]
+SQL: INSERT INTO `gjw_jjw_rechargewithdraw` (`bandcard`,`weicode`,`alipay`,`paytype`,`money`,`realname`,`u_id`,`addtime`) VALUES ('786','','',0,9,'7687',271,1528004199) [ RunTime:0.028873s ]
+
+[ 2018-06-03T13:44:38+08:00 ] 127.0.0.1 /index.php?s=/Home/Usercenter/rechargewithdraw.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002943s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.269340s ]
+SQL: SELECT * FROM `gjw_jjw_userinfo` WHERE ( id=271 ) LIMIT 1   [ RunTime:0.029315s ]
+SQL: UPDATE `gjw_jjw_userinfo` SET `balance`=balance-1 WHERE ( id=271 ) [ RunTime:0.029810s ]
+SQL: UPDATE `gjw_jjw_userinfo` SET `freeze_money`=freeze_money+1 WHERE ( id=271 ) [ RunTime:0.029036s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_rechargewithdraw` [ RunTime:0.028753s ]
+SQL: INSERT INTO `gjw_jjw_rechargewithdraw` (`bandcard`,`weicode`,`alipay`,`paytype`,`money`,`realname`,`u_id`,`addtime`) VALUES ('11','','',0,1,'11',271,1528004678) [ RunTime:0.270663s ]
+
+[ 2018-06-03T13:48:00+08:00 ] 127.0.0.1 /index.php?s=/Home/Usercenter/rechargewithdraw.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002897s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.030060s ]
+SQL: SELECT * FROM `gjw_jjw_userinfo` WHERE ( id=271 ) LIMIT 1   [ RunTime:0.031287s ]
+SQL: UPDATE `gjw_jjw_userinfo` SET `balance`=balance-1 WHERE ( id=271 ) [ RunTime:0.031457s ]
+SQL: UPDATE `gjw_jjw_userinfo` SET `freeze_money`=freeze_money+1 WHERE ( id=271 ) [ RunTime:0.030574s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_rechargewithdraw` [ RunTime:0.030037s ]
+SQL: INSERT INTO `gjw_jjw_rechargewithdraw` (`bandcard`,`weicode`,`alipay`,`paytype`,`money`,`realname`,`u_id`,`addtime`) VALUES ('ÊâÄÂèëÁîüÁöÑ','','',0,1,'Âõ¥Áªï',271,1528004880) [ RunTime:0.029163s ]
+
+[ 2018-06-03T13:48:26+08:00 ] 127.0.0.1 /index.php?s=/Home/Usercenter/rechargewithdraw.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002801s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.031791s ]
+SQL: SELECT * FROM `gjw_jjw_userinfo` WHERE ( id=271 ) LIMIT 1   [ RunTime:0.031503s ]
+SQL: UPDATE `gjw_jjw_userinfo` SET `balance`=balance-4 WHERE ( id=271 ) [ RunTime:0.031861s ]
+SQL: UPDATE `gjw_jjw_userinfo` SET `freeze_money`=freeze_money+4 WHERE ( id=271 ) [ RunTime:0.031762s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_rechargewithdraw` [ RunTime:0.275886s ]
+SQL: INSERT INTO `gjw_jjw_rechargewithdraw` (`bandcard`,`weicode`,`alipay`,`paytype`,`money`,`realname`,`u_id`,`addtime`) VALUES ('23423','','',0,4,'34',271,1528004906) [ RunTime:0.031641s ]
+
+[ 2018-06-03T13:49:52+08:00 ] 127.0.0.1 /index.php?s=/Donation/Index/donation.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002862s ]
+NOTIC: [8] Undefined index: user_balance D:\wamp\www\jjw\Application\Donation\Controller\IndexController.class.php Á¨¨ 47 Ë°å.
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.033636s ]
+SQL: SELECT `id` FROM `gjw_jjw_userinfo` WHERE ( uid=10199 ) LIMIT 1   [ RunTime:0.035852s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_balance_list` [ RunTime:0.579499s ]
+SQL: INSERT INTO `gjw_jjw_balance_list` (`money`,`u_id`,`remark`,`sym`,`type`,`add_time`,`out_trade_no`,`store_id`) VALUES (10000,271,'Áî®Êà∑ÂÖÖÂÄº','+',1,1528004991,'5b13817e89bb71528004990',null) [ RunTime:0.032329s ]
+NOTIC: [8] Use of undefined constant CURLOP_TIMEOUT - assumed 'CURLOP_TIMEOUT' D:\wamp\www\jjw\ThinkPHP\Library\Vendor\WxPayPubHelper\WxPayPubHelper.php Á¨¨ 155 Ë°å.
+NOTIC: [2] curl_setopt() expects parameter 2 to be long, string given D:\wamp\www\jjw\ThinkPHP\Library\Vendor\WxPayPubHelper\WxPayPubHelper.php Á¨¨ 155 Ë°å.
+NOTIC: [2] curl_close(): 41 is not a valid cURL handle resource D:\wamp\www\jjw\ThinkPHP\Library\Vendor\WxPayPubHelper\WxPayPubHelper.php Á¨¨ 175 Ë°å.
+
+[ 2018-06-03T13:50:03+08:00 ] 127.0.0.1 /index.php?s=/Home/Usercenter/rechargewithdraw.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002821s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.032395s ]
+SQL: SELECT * FROM `gjw_jjw_userinfo` WHERE ( id=271 ) LIMIT 1   [ RunTime:0.032576s ]
+SQL: UPDATE `gjw_jjw_userinfo` SET `balance`=balance-1 WHERE ( id=271 ) [ RunTime:0.032571s ]
+SQL: UPDATE `gjw_jjw_userinfo` SET `freeze_money`=freeze_money+1 WHERE ( id=271 ) [ RunTime:0.031689s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_rechargewithdraw` [ RunTime:0.031967s ]
+SQL: INSERT INTO `gjw_jjw_rechargewithdraw` (`bandcard`,`weicode`,`alipay`,`paytype`,`money`,`realname`,`u_id`,`addtime`) VALUES ('Âå∫4223423','','',0,1,'2423',271,1528005003) [ RunTime:0.033042s ]
+

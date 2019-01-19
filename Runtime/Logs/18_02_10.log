@@ -1,0 +1,326 @@
+[ 2018-02-10T11:00:05+08:00 ] 127.0.0.1 /index.php?s=/admin/public/login.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004710s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.056559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006714s ]
+
+[ 2018-02-10T11:00:09+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007317s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.032841s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.032623s ]
+SQL: UPDATE `onethink_ucenter_member` SET `last_login_time`=1518231607,`last_login_ip`='2130706433' WHERE ( `id` = 1 ) [ RunTime:0.038169s ]
+SQL: SHOW COLUMNS FROM `onethink_member` [ RunTime:0.039980s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status` FROM `onethink_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.247464s ]
+SQL: SHOW COLUMNS FROM `onethink_action` [ RunTime:0.131671s ]
+SQL: SELECT * FROM `onethink_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.136405s ]
+SQL: SHOW COLUMNS FROM `onethink_action_log` [ RunTime:0.124038s ]
+SQL: INSERT INTO `onethink_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (1,1,2130706433,'member',1,1518231607,'admin在2018-02-10 11:00登录了后台') [ RunTime:0.131841s ]
+SQL: SELECT * FROM `onethink_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.152449s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\jjw\Application\Common\Common\function.php 第 665 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\wamp\www\jjw\Application\Common\Common\function.php 第 665 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_action_log` WHERE ( `action_id` = 1 ) AND ( `user_id` = 1 ) AND ( `create_time` > 1518145207 ) LIMIT 1   [ RunTime:0.070240s ]
+SQL: UPDATE `onethink_member` SET `login`=`login`+1,`last_login_time`=1518231607,`last_login_ip`='2130706433' WHERE ( `uid` = 1 ) [ RunTime:0.034815s ]
+SQL: SHOW COLUMNS FROM `onethink_jjw_store` [ RunTime:0.035072s ]
+SQL: SELECT * FROM `onethink_jjw_store` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.036365s ]
+
+[ 2018-02-10T11:00:12+08:00 ] 127.0.0.1 /index.php?s=/Admin/Shop/index.html
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.034394s ]
+SQL: SELECT * FROM `onethink_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031356s ]
+SQL: SELECT `id` FROM `onethink_menu` WHERE ( url like '%Shop/index%' ) LIMIT 1   [ RunTime:0.029343s ]
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.036297s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=138 ) LIMIT 1   [ RunTime:0.031560s ]
+SQL: SELECT DISTINCT  `group` FROM `onethink_menu` WHERE ( pid = 138 )  [ RunTime:0.030213s ]
+SQL: SELECT `id`,`url` FROM `onethink_menu` WHERE ( `pid` = 138 ) AND ( `hide` = 0 )  [ RunTime:0.030364s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '店铺管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029855s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '会员管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032046s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '利润分配管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031206s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '活动管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031901s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '广告管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032614s ]
+SQL: SHOW COLUMNS FROM `onethink_jjw_store` [ RunTime:0.031068s ]
+SQL: SELECT * FROM `onethink_jjw_store`  [ RunTime:0.033674s ]
+SQL: SHOW COLUMNS FROM `onethink_jjw_userinfo` [ RunTime:0.046572s ]
+SQL: SELECT `uid` FROM `onethink_jjw_userinfo` WHERE ( store_id=4 ) LIMIT 1   [ RunTime:0.028906s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.032381s ]
+SQL: SELECT `referrer_user` FROM `onethink_user` WHERE ( uid=10022 ) LIMIT 1   [ RunTime:0.030205s ]
+SQL: SELECT `uid` FROM `onethink_jjw_userinfo` WHERE ( store_id=5 ) LIMIT 1   [ RunTime:0.030643s ]
+SQL: SELECT `referrer_user` FROM `onethink_user` WHERE ( uid=10010 ) LIMIT 1   [ RunTime:0.029155s ]
+SQL: SELECT `uid` FROM `onethink_jjw_userinfo` WHERE ( store_id=7 ) LIMIT 1   [ RunTime:0.033632s ]
+SQL: SELECT `referrer_user` FROM `onethink_user` WHERE ( uid=10026 ) LIMIT 1   [ RunTime:0.030355s ]
+SQL: SELECT `uid` FROM `onethink_jjw_userinfo` WHERE ( store_id=8 ) LIMIT 1   [ RunTime:0.029922s ]
+SQL: SELECT `referrer_user` FROM `onethink_user` WHERE ( uid=10045 ) LIMIT 1   [ RunTime:0.029536s ]
+SQL: SELECT `uid` FROM `onethink_jjw_userinfo` WHERE ( store_id=9 ) LIMIT 1   [ RunTime:0.031272s ]
+SQL: SELECT `referrer_user` FROM `onethink_user` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.031107s ]
+SQL: SELECT `uid` FROM `onethink_jjw_userinfo` WHERE ( store_id=10 ) LIMIT 1   [ RunTime:0.035740s ]
+SQL: SELECT `referrer_user` FROM `onethink_user` WHERE ( uid=10129 ) LIMIT 1   [ RunTime:0.032965s ]
+SQL: SELECT `uid` FROM `onethink_jjw_userinfo` WHERE ( store_id=11 ) LIMIT 1   [ RunTime:0.038390s ]
+SQL: SELECT `referrer_user` FROM `onethink_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.035548s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `onethink_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `onethink_jjw_userinfo` WHERE ( store_id=14 ) LIMIT 1   [ RunTime:0.031632s ]
+SQL: SELECT `referrer_user` FROM `onethink_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.028487s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `onethink_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `onethink_jjw_userinfo` WHERE ( store_id=15 ) LIMIT 1   [ RunTime:0.033202s ]
+SQL: SELECT `referrer_user` FROM `onethink_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.029911s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `onethink_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `onethink_jjw_userinfo` WHERE ( store_id=16 ) LIMIT 1   [ RunTime:0.030849s ]
+SQL: SELECT `referrer_user` FROM `onethink_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.029527s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `onethink_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `onethink_jjw_userinfo` WHERE ( store_id=17 ) LIMIT 1   [ RunTime:0.030192s ]
+SQL: SELECT `referrer_user` FROM `onethink_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.029486s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `onethink_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `onethink_jjw_userinfo` WHERE ( store_id=18 ) LIMIT 1   [ RunTime:0.032829s ]
+SQL: SELECT `referrer_user` FROM `onethink_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.029029s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `onethink_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `onethink_jjw_userinfo` WHERE ( store_id=19 ) LIMIT 1   [ RunTime:0.030541s ]
+SQL: SELECT `referrer_user` FROM `onethink_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.031887s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `onethink_user` WHERE ( uid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.002950s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.008095s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 5 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 128 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 128 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 128 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 128 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 128 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 128 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 128 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 128 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 128 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 128 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 128 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 128 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 128 行.
+NOTIC: [8] Undefined variable: _page D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 148 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.694395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.698969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008948s ]
+
+[ 2018-02-10T11:00:17+08:00 ] 127.0.0.1 /index.php?s=/Admin/Shop/memberList.html
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.034513s ]
+SQL: SELECT * FROM `onethink_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.034482s ]
+SQL: SELECT `id` FROM `onethink_menu` WHERE ( url like '%Shop/memberlist%' ) LIMIT 1   [ RunTime:0.034407s ]
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.033805s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=142 ) LIMIT 1   [ RunTime:0.037113s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=138 ) LIMIT 1   [ RunTime:0.033505s ]
+SQL: SELECT DISTINCT  `group` FROM `onethink_menu` WHERE ( pid = 138 )  [ RunTime:0.036134s ]
+SQL: SELECT `id`,`url` FROM `onethink_menu` WHERE ( `pid` = 138 ) AND ( `hide` = 0 )  [ RunTime:0.032112s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '店铺管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032900s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '会员管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.035248s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '利润分配管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031607s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '活动管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.033013s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '广告管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.033930s ]
+SQL: SHOW COLUMNS FROM `onethink_jjw_userinfo` [ RunTime:0.033511s ]
+NOTIC: [8] Undefined index: where D:\wamp\www\jjw\Application\Admin\Controller\AdminController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM onethink_jjw_userinfo ui left join onethink_user as u ON u.uid=ui.uid  LIMIT 1   [ RunTime:0.038664s ]
+SQL: SELECT ui.*,u.stair_id FROM onethink_jjw_userinfo ui left join onethink_user as u ON u.uid=ui.uid  ORDER BY id desc LIMIT 0,10   [ RunTime:0.034572s ]
+SQL: SHOW COLUMNS FROM `onethink_jjw_userinfo` [ RunTime:0.036330s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.031318s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10010 ) LIMIT 1   [ RunTime:0.033848s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10010 ) LIMIT 1   [ RunTime:0.033764s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.037578s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.039182s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.036558s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.037857s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001970s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006196s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\f68e8ffa0966bf3bb80630b267748577.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.399118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.402356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008634s ]
+
+[ 2018-02-10T11:02:15+08:00 ] 127.0.0.1 /index.php?s=/Admin/Shop/memberList.html
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.035488s ]
+SQL: SELECT * FROM `onethink_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.036619s ]
+SQL: SELECT `id` FROM `onethink_menu` WHERE ( url like '%Shop/memberlist%' ) LIMIT 1   [ RunTime:0.033573s ]
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.037113s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=142 ) LIMIT 1   [ RunTime:0.033336s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=138 ) LIMIT 1   [ RunTime:0.035732s ]
+SQL: SELECT DISTINCT  `group` FROM `onethink_menu` WHERE ( pid = 138 )  [ RunTime:0.033262s ]
+SQL: SELECT `id`,`url` FROM `onethink_menu` WHERE ( `pid` = 138 ) AND ( `hide` = 0 )  [ RunTime:0.032268s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '店铺管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.036984s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '会员管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.052801s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '利润分配管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.042722s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '活动管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.035871s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '广告管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.040331s ]
+SQL: SHOW COLUMNS FROM `onethink_jjw_userinfo` [ RunTime:0.037586s ]
+NOTIC: [8] Undefined index: where D:\wamp\www\jjw\Application\Admin\Controller\AdminController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM onethink_jjw_userinfo ui left join onethink_user as u ON u.uid=ui.uid  LIMIT 1   [ RunTime:0.037767s ]
+SQL: SELECT ui.*,u.stair_id FROM onethink_jjw_userinfo ui left join onethink_user as u ON u.uid=ui.uid  ORDER BY id desc LIMIT 0,10   [ RunTime:0.033784s ]
+SQL: SHOW COLUMNS FROM `onethink_jjw_userinfo` [ RunTime:0.035183s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.035303s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10010 ) LIMIT 1   [ RunTime:0.033836s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10010 ) LIMIT 1   [ RunTime:0.035751s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.033578s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.034246s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.033835s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.035432s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001682s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004948s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\f68e8ffa0966bf3bb80630b267748577.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.366679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.369752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005560s ]
+
+[ 2018-02-10T11:02:30+08:00 ] 127.0.0.1 /index.php?s=/Admin/Shop/memberList.html
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.038874s ]
+SQL: SELECT * FROM `onethink_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.035287s ]
+SQL: SELECT `id` FROM `onethink_menu` WHERE ( url like '%Shop/memberlist%' ) LIMIT 1   [ RunTime:0.034212s ]
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.037843s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=142 ) LIMIT 1   [ RunTime:0.036338s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=138 ) LIMIT 1   [ RunTime:0.038615s ]
+SQL: SELECT DISTINCT  `group` FROM `onethink_menu` WHERE ( pid = 138 )  [ RunTime:0.035380s ]
+SQL: SELECT `id`,`url` FROM `onethink_menu` WHERE ( `pid` = 138 ) AND ( `hide` = 0 )  [ RunTime:0.045700s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '店铺管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.034175s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '会员管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.038195s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '利润分配管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.041369s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '活动管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.035628s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '广告管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.036687s ]
+SQL: SHOW COLUMNS FROM `onethink_jjw_userinfo` [ RunTime:0.037769s ]
+NOTIC: [8] Undefined index: where D:\wamp\www\jjw\Application\Admin\Controller\AdminController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM onethink_jjw_userinfo ui left join onethink_user as u ON u.uid=ui.uid  LIMIT 1   [ RunTime:0.033904s ]
+SQL: SELECT ui.*,u.stair_id FROM onethink_jjw_userinfo ui left join onethink_user as u ON u.uid=ui.uid  ORDER BY id desc LIMIT 0,10   [ RunTime:0.038549s ]
+SQL: SHOW COLUMNS FROM `onethink_jjw_userinfo` [ RunTime:0.039707s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.045785s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10010 ) LIMIT 1   [ RunTime:0.035592s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10010 ) LIMIT 1   [ RunTime:0.036972s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.037216s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.035144s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.041717s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.034150s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001399s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004501s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\f68e8ffa0966bf3bb80630b267748577.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.430210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.434820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007827s ]
+
+[ 2018-02-10T11:02:33+08:00 ] 127.0.0.1 /index.php?s=/Admin/Shop/memberlist/p/2.html
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.029804s ]
+SQL: SELECT * FROM `onethink_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030458s ]
+SQL: SELECT `id` FROM `onethink_menu` WHERE ( url like '%Shop/memberlist%' ) LIMIT 1   [ RunTime:0.032315s ]
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.030616s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=142 ) LIMIT 1   [ RunTime:0.029334s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=138 ) LIMIT 1   [ RunTime:0.032538s ]
+SQL: SELECT DISTINCT  `group` FROM `onethink_menu` WHERE ( pid = 138 )  [ RunTime:0.029001s ]
+SQL: SELECT `id`,`url` FROM `onethink_menu` WHERE ( `pid` = 138 ) AND ( `hide` = 0 )  [ RunTime:0.028627s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '店铺管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030234s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '会员管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031273s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '利润分配管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030476s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '活动管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.036144s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '广告管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032047s ]
+SQL: SHOW COLUMNS FROM `onethink_jjw_userinfo` [ RunTime:0.032603s ]
+NOTIC: [8] Undefined index: where D:\wamp\www\jjw\Application\Admin\Controller\AdminController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM onethink_jjw_userinfo ui left join onethink_user as u ON u.uid=ui.uid  LIMIT 1   [ RunTime:0.032046s ]
+SQL: SELECT ui.*,u.stair_id FROM onethink_jjw_userinfo ui left join onethink_user as u ON u.uid=ui.uid  ORDER BY id desc LIMIT 10,10   [ RunTime:0.031506s ]
+SQL: SHOW COLUMNS FROM `onethink_jjw_userinfo` [ RunTime:0.031355s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.029417s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.029870s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.030700s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.029099s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( store_id=9 ) LIMIT 1   [ RunTime:0.029030s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.031216s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.029684s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.030599s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.030700s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.029780s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001412s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004319s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\f68e8ffa0966bf3bb80630b267748577.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.358033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.361197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006065s ]
+
+[ 2018-02-10T11:02:37+08:00 ] 127.0.0.1 /index.php?s=/Admin/Shop/memberlist/p/3.html
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.034554s ]
+SQL: SELECT * FROM `onethink_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.034420s ]
+SQL: SELECT `id` FROM `onethink_menu` WHERE ( url like '%Shop/memberlist%' ) LIMIT 1   [ RunTime:0.033730s ]
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.036203s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=142 ) LIMIT 1   [ RunTime:0.032704s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=138 ) LIMIT 1   [ RunTime:0.035352s ]
+SQL: SELECT DISTINCT  `group` FROM `onethink_menu` WHERE ( pid = 138 )  [ RunTime:0.032220s ]
+SQL: SELECT `id`,`url` FROM `onethink_menu` WHERE ( `pid` = 138 ) AND ( `hide` = 0 )  [ RunTime:0.033210s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '店铺管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.033971s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '会员管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032848s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '利润分配管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.033461s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '活动管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.033355s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '广告管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.043919s ]
+SQL: SHOW COLUMNS FROM `onethink_jjw_userinfo` [ RunTime:0.039068s ]
+NOTIC: [8] Undefined index: where D:\wamp\www\jjw\Application\Admin\Controller\AdminController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM onethink_jjw_userinfo ui left join onethink_user as u ON u.uid=ui.uid  LIMIT 1   [ RunTime:0.036190s ]
+SQL: SELECT ui.*,u.stair_id FROM onethink_jjw_userinfo ui left join onethink_user as u ON u.uid=ui.uid  ORDER BY id desc LIMIT 20,10   [ RunTime:0.033730s ]
+SQL: SHOW COLUMNS FROM `onethink_jjw_userinfo` [ RunTime:0.036745s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.035451s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.033059s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.034129s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.036131s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.038820s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.033681s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( store_id=9 ) LIMIT 1   [ RunTime:0.062921s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.033933s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.034720s ]
+SQL: SELECT `realname` FROM `onethink_jjw_userinfo` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.034196s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001769s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006287s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\f68e8ffa0966bf3bb80630b267748577.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.428065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.432057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006973s ]
+

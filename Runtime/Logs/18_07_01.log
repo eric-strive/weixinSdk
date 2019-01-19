@@ -1,0 +1,137 @@
+[ 2018-07-01T11:55:28+08:00 ] 127.0.0.1 /index.php?s=/Admin/Merchant/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005780s ]
+
+[ 2018-07-01T11:55:28+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005777s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000655s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002074s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.039602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002627s ]
+
+[ 2018-07-01T11:59:13+08:00 ] 127.0.0.1 /index.php?s=/Home/Usercenter/myStore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003526s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.032437s ]
+SQL: SELECT * FROM `gjw_jjw_userinfo` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.031923s ]
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 204 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 205 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 206 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 207 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 208 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 209 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 210 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 211 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 212 行.
+
+[ 2018-07-01T11:59:57+08:00 ] 127.0.0.1 /index.php?s=/Home/Usercenter/myStore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002715s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.030941s ]
+SQL: SELECT * FROM `gjw_jjw_userinfo` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.030816s ]
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 204 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 205 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 206 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 207 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 208 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 209 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 210 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 211 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 212 行.
+
+[ 2018-07-01T12:00:16+08:00 ] 127.0.0.1 /index.php?s=/Home/Usercenter/myStore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002607s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.031611s ]
+SQL: SELECT * FROM `gjw_jjw_userinfo` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.030353s ]
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 204 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 205 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 206 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 207 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 208 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 209 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 210 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 211 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 212 行.
+SQL: SHOW COLUMNS FROM `gjw_jjw_new_images` [ RunTime:0.030420s ]
+SQL: SELECT `img_path` FROM `gjw_jjw_new_images` WHERE ( u_id=1 and type=1 ) LIMIT 1   [ RunTime:0.030191s ]
+SQL: SELECT `img_path` FROM `gjw_jjw_new_images` WHERE ( u_id=1 and type=2 ) LIMIT 1   [ RunTime:0.029950s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_store` [ RunTime:0.031263s ]
+SQL: UPDATE `gjw_jjw_store` SET `store_name`='汪威的店铺',`mobile`='18254243649',`email`='1114336595@qq.com',`industry`='it.技术',`antistop`='技术',`address`=689698689,`province`=150000,`city`='150500',`country`=150523,`phone`='18207199230' WHERE ( store_id=1 ) [ RunTime:0.030731s ]
+
+[ 2018-07-01T12:00:30+08:00 ] 127.0.0.1 /index.php?s=/Home/Usercenter/myStore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003883s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.032240s ]
+SQL: SELECT * FROM `gjw_jjw_userinfo` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.036986s ]
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 204 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 205 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 206 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 207 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 208 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 209 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 210 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 211 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 212 行.
+
+[ 2018-07-01T12:01:13+08:00 ] 127.0.0.1 /index.php?s=/Home/Usercenter/myStore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002578s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.032736s ]
+SQL: SELECT * FROM `gjw_jjw_userinfo` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.032806s ]
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 204 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 205 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 206 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 207 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 208 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 209 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 210 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 211 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 212 行.
+SQL: SHOW COLUMNS FROM `gjw_jjw_new_images` [ RunTime:0.031591s ]
+SQL: SELECT `img_path` FROM `gjw_jjw_new_images` WHERE ( u_id=1 and type=1 ) LIMIT 1   [ RunTime:0.032441s ]
+SQL: SELECT `img_path` FROM `gjw_jjw_new_images` WHERE ( u_id=1 and type=2 ) LIMIT 1   [ RunTime:0.032397s ]
+
+[ 2018-07-01T12:02:24+08:00 ] 127.0.0.1 /index.php?s=/Home/Usercenter/myStore.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003544s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.032832s ]
+SQL: SELECT * FROM `gjw_jjw_userinfo` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.032523s ]
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 204 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 205 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 206 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 207 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 208 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 209 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 210 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 211 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Home\Controller\UsercenterController.class.php 第 212 行.
+SQL: SHOW COLUMNS FROM `gjw_jjw_new_images` [ RunTime:0.032327s ]
+SQL: SELECT `img_path` FROM `gjw_jjw_new_images` WHERE ( u_id=1 and type=1 ) LIMIT 1   [ RunTime:0.032138s ]
+SQL: SELECT `img_path` FROM `gjw_jjw_new_images` WHERE ( u_id=1 and type=2 ) LIMIT 1   [ RunTime:0.031959s ]
+
+[ 2018-07-01T12:07:21+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shoppingrepresent/representlike.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002598s ]
+SQL: SHOW COLUMNS FROM `gjw_activity_represent_dianzan` [ RunTime:0.031979s ]
+SQL: SHOW COLUMNS FROM `gjw_activity_consume_represent` [ RunTime:0.031819s ]
+SQL: SELECT * FROM `gjw_activity_represent_dianzan` WHERE ( `uid` = 1 ) AND ( `represent_id` = 4 ) AND (  (`ctime` BETWEEN 1530374400 AND 1530460800 ) ) LIMIT 1   [ RunTime:0.031992s ]
+

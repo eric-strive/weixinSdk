@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>会员充值</title>
+    <link rel="stylesheet" href="__STATIC__/M/iconfont/iconfont.css">
+    <link rel="stylesheet" href="__STATIC__/M/css/weui.min.css">
+    <link rel="stylesheet" href="__STATIC__/Jmr/css/Jmr.css">
+    <include file="Public/head"/>
+    <style>
+        .weui-mask, .weui-mask_transparent{
+            z-index:2000;
+        }
+    </style>
+</head>
+<body class="bg-gray" style="background: #ffffff;height: 100%">
+<div class="header">
+    <div class="header-background"></div>
+    <div class="toolbar statusbar-padding">
+        <button class="bar-button back-button" onclick="history.go(-1);" dwz-event-on-click="click"><i class="icon icon-back"></i></button>
+        <!--<a class="bar-button" data-href="home.html?dwz_callback=home_render" target="navTab" rel="home"><i class="icon icon-back"></i></a>-->
+        <div class="header-title">
+            <div class="title">用户充值</div>
+        </div>
+    </div>
+</div>
+<div style="height:44px"></div>
+<div class='weui-tab__panel page__bd page__bd_spacing' style="width: 100%;background: #ffffff;height: 100%;">
+    <div class="salesman-icon b" style="background: #ffffff;margin-top: 1px;margin-bottom: 20px;">
+        <div class="mon" att="100" style="background: #ffdf2e;height: 65px;border-radius: 5px;padding-top:5%;text-align:center;width: 43%;float: left;margin-left: 4%">
+            <div style="font-size: 20px;font-family: '宋体';">充100元</div>
+            <!--<div style="color: red;font-size: 16px;">送{$cn[1]}元</div>-->
+        </div>
+        <div class="mon" att="200" style="background: #f5f5f5;height: 65px;border-radius: 5px;padding-top:5%;text-align:center;width: 43%;float: right;margin-right: 4%">
+            <div style="font-size: 20px;font-family: '宋体';">充200元</div>
+            <!--<div style="color: red;font-size: 16px;">送{$cn[2]}元</div>-->
+        </div>
+        <div class="mon" att="500" style="background: #f5f5f5;height: 65px;border-radius: 5px;padding-top:5%;text-align:center;width: 43%;float: left;margin-left: 4%;margin-top: 10px;">
+            <div style="font-size: 20px;font-family: '宋体';">充500元</div>
+            <!--<div style="color: red;font-size: 16px;">送{$cn[3]}元</div>-->
+        </div>
+        <input type="hidden" id="num" value="100">
+        <div class="mon" att="0" style="background: #f5f5f5;height: 65px;border-radius: 5px;padding-top:1%;text-align:center;width: 43%;float: right;margin-right: 4%;margin-top: 10px;">
+            <div style="font-size: 20px;font-family: '宋体';">自定义金额</div>
+            <div style="color: red;font-size: 16px;">
+                <div class="weui-cell" style="padding:0px 0px;padding-left: 15%;">
+                    <div class="weui-cell__bd">
+                        <input type="text" class="weui-input" id="money" name="money" value="" placeholder="请输入100的倍数"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="btn-div login-form" style="margin-top: 20px;float: left;text-align: center;width: 100%;font-size: 25px;">
+        <butotn type="button" class="btn btn-block btn-grayish weui-btn_warn" id="chongzhi" style="background: #ff6766;width: 80%;font-size: 20px;margin-left:7%;">确认充值</butotn>
+    </div>
+</div>
+<div class="js_dialog" id="iosDialog2" style="display:none;">
+    <div class="weui-mask"></div>
+    <div class="weui-dialog">
+        <div class="weui-dialog__bd">请输入10的整数倍哦，<br/>单次充值金额最高不超过1000</div>
+        <div class="weui-dialog__ft">
+            <a href="javascript:;" class="weui-dialog__btn weui-dialog__btn_primary" id="">确定</a>
+        </div>
+    </div>
+</div>
+<script src="__STATIC__/jquery-2.2.0.min.js" type="text/javascript"></script>
+<!--<script src="__STATIC__/M/js/example.js" type="text/javascript"></script>-->
+<script src="__STATIC__/M/js/zepto.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+    $(function(){
+        //调用微信JS api 支付
+        function jsApiCall(result)
+        {
+            WeixinJSBridge.invoke(
+                    'getBrandWCPayRequest',
+                    result,
+                    function(res){
+                        if(res.err_msg == "get_brand_wcpay_request:ok" ) {
+                            window.location.href="{:U('Wapuserinfo/Index/index')}";
+                        }// 使用以上方式判断前端返回,微信团队郑重提示：res.err_msg将在用户支付成功后返回    ok，但并不保证它绝对可靠。
+                        if(res.err_msg == "get_brand_wcpay_request:fail" ) {
+                            alert("支付失败");
+                        }
+                    }
+            );
+        }
+        $(".mon").click(function(){
+            $(".mon").each(function(){
+                $(this).css('background','#f5f5f5');
+            })
+            var num = $(this).attr('att');
+            $("#num").val(num);
+            $(this).css('background','#ffdf2e');
+        });
+        var issend = false;
+        $("#chongzhi").click(function(){
+            $(this).attr('disabled',true);
+            var num = $("#num").val();
+            var money = $("#money").val();
+            if(num==0){
+                if(money%10!==0||money<10||money>1000){
+                    $("#iosDialog2").fadeIn(200);
+                    return false;
+                }
+            }else{
+                money = num;
+            }
+            if(issend) return false;
+            issend = true;
+            $.ajax({
+                type: 'post',
+                data: {total_fee:money,remark:'用户充值',body:'用户充值',attach:'chongzhi'},
+                url: "{:U('Donation/Index/donation')}",
+                dataType: 'json',
+                success: function (data) {
+                    if (data.status) {
+                        jsApiCall(data.wxconf);
+                    }else {
+                        alert(data.error_msg);
+                        issend = false;
+                    }
+                },
+            });
+        })
+        $('.bg-gray').on('click', '.weui-dialog__btn', function(){
+            $(this).parents('.js_dialog').fadeOut(200);
+        });
+    })
+</script>
+</body>

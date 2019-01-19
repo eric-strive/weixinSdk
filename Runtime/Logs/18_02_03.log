@@ -1,0 +1,771 @@
+[ 2018-02-03T09:49:59+08:00 ] 127.0.0.1 /index.php?s=/admin/shopping_mall/categorylist.html
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `onethink_product`
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1  
+
+[ 2018-02-03T09:50:23+08:00 ] 127.0.0.1 /index.php?s=/admin/shopping_mall/categorylist.html
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `onethink_product`
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1  
+
+[ 2018-02-03T09:50:46+08:00 ] 127.0.0.1 /index.php?s=/admin/shopping_mall/categorylist.html
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `onethink_product`
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1  
+
+[ 2018-02-03T09:51:06+08:00 ] 127.0.0.1 /index.php?s=/admin/shopping_mall/categorylist.html
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `onethink_product`
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1  
+
+[ 2018-02-03T11:02:12+08:00 ] 127.0.0.1 /index.php?s=/wapshop/shoppingaddress/add_adds.html
+ERR: 无法加载控制器:Shoppingaddress
+
+[ 2018-02-03T11:02:44+08:00 ] 127.0.0.1 /index.php?s=/wapshop/shoppingaddress/add_adds.html
+ERR: 无法加载控制器:Shoppingaddress
+
+[ 2018-02-03T11:04:11+08:00 ] 127.0.0.1 /index.php?s=/wapshop/shoppingaddress/add_adds.html
+ERR: 无法加载控制器:Shoppingaddress
+
+[ 2018-02-03T11:04:57+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shoppingaddress/add_adds
+ERR: 无法加载控制器:Shoppingaddress
+
+[ 2018-02-03T11:05:28+08:00 ] 127.0.0.1 /index.php?s=/wapshop/shoppingaddress/add_adds.html
+ERR: 无法加载控制器:Shoppingaddress
+
+[ 2018-02-03T12:02:01+08:00 ] 127.0.0.1 /index.php?s=/wapshop/shippingaddress/edit_default_adds.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `onethink_shopping_goods_address` SET `is_default`=2 WHERE ( address= )
+
+[ 2018-02-03T12:03:15+08:00 ] 127.0.0.1 /index.php?s=/wapshop/shippingaddress/edit_default_adds.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `onethink_shopping_goods_address` SET `is_default`=2 WHERE ( address= )
+
+[ 2018-02-03T15:59:18+08:00 ] 127.0.0.1 /index.php?s=/Wapuserinfo/Shopping/startbuy.html
+ERR: 无法加载控制器:Shopping
+
+[ 2018-02-03T16:43:41+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shipping/del_order.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002488s ]
+ERR: 无法加载控制器:Shipping
+
+[ 2018-02-03T16:43:43+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shipping/del_order.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002695s ]
+ERR: 无法加载控制器:Shipping
+
+[ 2018-02-03T16:44:35+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shipping/del_order.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002439s ]
+ERR: 无法加载控制器:Shipping
+
+[ 2018-02-03T16:45:23+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shopping/del_order.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003173s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.032322s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid="oiCEG1IMOfx9rI22iIxbvIB5_uxk" ) LIMIT 1   [ RunTime:0.033308s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_orders_info` [ RunTime:0.034697s ]
+SQL: UPDATE `onethink_shopping_goods_orders_info` SET `is_del`=1 WHERE ( order_info_id=223 ) [ RunTime:0.035310s ]
+
+[ 2018-02-03T16:46:26+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shopping/del_order.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003494s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.035356s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid="oiCEG1IMOfx9rI22iIxbvIB5_uxk" ) LIMIT 1   [ RunTime:0.035878s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_orders_info` [ RunTime:0.030812s ]
+SQL: UPDATE `onethink_shopping_goods_orders_info` SET `is_del`=1 WHERE ( order_info_id=224 ) [ RunTime:0.029780s ]
+
+[ 2018-02-03T16:47:05+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shopping/del_order.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002344s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.035068s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid="oiCEG1IMOfx9rI22iIxbvIB5_uxk" ) LIMIT 1   [ RunTime:0.033386s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_orders_info` [ RunTime:0.033811s ]
+SQL: UPDATE `onethink_shopping_goods_orders_info` SET `is_del`=1 WHERE ( order_info_id=225 ) [ RunTime:0.035333s ]
+
+[ 2018-02-03T16:48:29+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shopping/del_order.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002577s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.034605s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid="oiCEG1IMOfx9rI22iIxbvIB5_uxk" ) LIMIT 1   [ RunTime:0.037151s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_orders_info` [ RunTime:0.031126s ]
+SQL: UPDATE `onethink_shopping_goods_orders_info` SET `is_del`=1 WHERE ( order_info_id=224 ) [ RunTime:0.031064s ]
+
+[ 2018-02-03T16:50:19+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shopping/del_order.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002558s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.045710s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid="oiCEG1IMOfx9rI22iIxbvIB5_uxk" ) LIMIT 1   [ RunTime:0.049866s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_orders_info` [ RunTime:0.199841s ]
+SQL: UPDATE `onethink_shopping_goods_orders_info` SET `is_del`=1 WHERE ( order_info_id=223 ) [ RunTime:0.150785s ]
+
+[ 2018-02-03T16:52:23+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shopping/del_order.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004085s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.032498s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid="oiCEG1IMOfx9rI22iIxbvIB5_uxk" ) LIMIT 1   [ RunTime:0.035152s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_orders_info` [ RunTime:0.038624s ]
+SQL: UPDATE `onethink_shopping_goods_orders_info` SET `status`=13 WHERE ( order_info_id=225 ) [ RunTime:0.038233s ]
+
+[ 2018-02-03T17:05:50+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shippingaddress/add_adds.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003199s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.035116s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid="oiCEG1IMOfx9rI22iIxbvIB5_uxk" ) LIMIT 1   [ RunTime:0.038763s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_address` [ RunTime:0.035813s ]
+SQL: SELECT `uid` FROM `onethink_user` WHERE ( openid="oiCEG1IMOfx9rI22iIxbvIB5_uxk" ) LIMIT 1   [ RunTime:0.036408s ]
+SQL: UPDATE `onethink_shopping_goods_address` SET `is_default`=1 WHERE ( uid=10056 ) [ RunTime:0.032245s ]
+SQL: UPDATE `onethink_shopping_goods_address` SET `consignee`='张三',`address_id`=50,`phone`='15856235623',`postcode`=524125,`province`='210000',`city`='211200',`county`='211221',`address`='完成村三组',`is_default`=2,`uid`=10056 WHERE ( address_id=50 ) [ RunTime:0.033262s ]
+
+[ 2018-02-03T17:06:16+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shippingaddress/add_adds.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002662s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.030775s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid="oiCEG1IMOfx9rI22iIxbvIB5_uxk" ) LIMIT 1   [ RunTime:0.041425s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_address` [ RunTime:0.031809s ]
+SQL: SELECT `uid` FROM `onethink_user` WHERE ( openid="oiCEG1IMOfx9rI22iIxbvIB5_uxk" ) LIMIT 1   [ RunTime:0.032646s ]
+SQL: UPDATE `onethink_shopping_goods_address` SET `is_default`=1 WHERE ( uid=10056 ) [ RunTime:0.031835s ]
+SQL: UPDATE `onethink_shopping_goods_address` SET `consignee`='汪威',`address_id`=48,`phone`='18524578596',`postcode`=526235,`province`='210000',`city`='210500',`county`='210521',`address`='上海菩提洞区我诶',`is_default`=2,`uid`=10056 WHERE ( address_id=48 ) [ RunTime:0.030917s ]
+
+[ 2018-02-03T18:39:06+08:00 ] 127.0.0.1 /index.php?s=/Home/Answer/agreeapply.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002422s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.033736s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid="oiCEG1IMOfx9rI22iIxbvIB5_uxk" ) LIMIT 1   [ RunTime:0.029798s ]
+SQL: SHOW COLUMNS FROM `onethink_jjw_answer` [ RunTime:0.029788s ]
+SQL: UPDATE `onethink_jjw_answer` SET `is_look`=1 WHERE ( `id` = 31 ) [ RunTime:0.031094s ]
+
+[ 2018-02-03T19:39:53+08:00 ] 127.0.0.1 /index.php?s=/admin/shopping_mall/index.html
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.029649s ]
+SQL: SELECT * FROM `onethink_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.051549s ]
+SQL: SELECT `id` FROM `onethink_menu` WHERE ( url like '%Shopping_mall/index%' ) LIMIT 1   [ RunTime:0.029813s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods` [ RunTime:0.031473s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_category` [ RunTime:0.031454s ]
+NOTIC: [8] Undefined index: where D:\wamp\www\jjw\Application\Admin\Controller\AdminController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_shopping_goods` LIMIT 1   [ RunTime:0.027889s ]
+SQL: SELECT `product_id`,`code`,`supplier_name`,`store`,`freight_fee`,`sales_num`,`category_id`,`name`,`unit`,`net_content`,`shop_price`,`market_price`,`weight`,`ctime` FROM `onethink_shopping_goods` ORDER BY ctime desc LIMIT 0,10   [ RunTime:0.030565s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.031391s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.028910s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.029829s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.028904s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.029783s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.030008s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.030058s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.030593s ]
+ERR: 模板不存在:./Application/Admin/View/Shopping_mall/index.html
+
+[ 2018-02-03T19:40:01+08:00 ] 127.0.0.1 /index.php?s=/admin/shopping_mall/categorylist.html
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.031055s ]
+SQL: SELECT * FROM `onethink_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030140s ]
+SQL: SELECT `id` FROM `onethink_menu` WHERE ( url like '%Shopping_mall/categorylist%' ) LIMIT 1   [ RunTime:0.044051s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_category` [ RunTime:0.029775s ]
+SQL: SHOW COLUMNS FROM `onethink_product` [ RunTime:0.034218s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `onethink_product`
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.027421s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031415s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.043747s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031113s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.026484s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032355s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.029842s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 模板不存在:./Application/Admin/View/Shopping_mall/categorylist.html
+
+[ 2018-02-03T19:40:07+08:00 ] 127.0.0.1 /index.php?s=/admin/shopping_mall/index.html
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.029552s ]
+SQL: SELECT * FROM `onethink_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032297s ]
+SQL: SELECT `id` FROM `onethink_menu` WHERE ( url like '%Shopping_mall/index%' ) LIMIT 1   [ RunTime:0.029026s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods` [ RunTime:0.058881s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_category` [ RunTime:0.031808s ]
+NOTIC: [8] Undefined index: where D:\wamp\www\jjw\Application\Admin\Controller\AdminController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_shopping_goods` LIMIT 1   [ RunTime:0.030197s ]
+SQL: SELECT `product_id`,`code`,`supplier_name`,`store`,`freight_fee`,`sales_num`,`category_id`,`name`,`unit`,`net_content`,`shop_price`,`market_price`,`weight`,`ctime` FROM `onethink_shopping_goods` ORDER BY ctime desc LIMIT 0,10   [ RunTime:0.044444s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.032232s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.027691s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.035679s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.030184s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.035292s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.029183s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.034444s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.029933s ]
+ERR: 模板不存在:./Application/Admin/View/Shopping_mall/index.html
+
+[ 2018-02-03T19:40:10+08:00 ] 127.0.0.1 /index.php?s=/admin/shopping_mall/categorylist.html
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.032005s ]
+SQL: SELECT * FROM `onethink_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.036156s ]
+SQL: SELECT `id` FROM `onethink_menu` WHERE ( url like '%Shopping_mall/categorylist%' ) LIMIT 1   [ RunTime:0.030859s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_category` [ RunTime:0.031015s ]
+SQL: SHOW COLUMNS FROM `onethink_product` [ RunTime:0.031636s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `onethink_product`
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.029701s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.030312s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.045394s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.029964s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032103s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031340s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031025s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 模板不存在:./Application/Admin/View/Shopping_mall/categorylist.html
+
+[ 2018-02-03T19:40:11+08:00 ] 127.0.0.1 /index.php?s=/admin/shopping_mall/index.html
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.043370s ]
+SQL: SELECT * FROM `onethink_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.034122s ]
+SQL: SELECT `id` FROM `onethink_menu` WHERE ( url like '%Shopping_mall/index%' ) LIMIT 1   [ RunTime:0.039693s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods` [ RunTime:0.034286s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_category` [ RunTime:0.040691s ]
+NOTIC: [8] Undefined index: where D:\wamp\www\jjw\Application\Admin\Controller\AdminController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_shopping_goods` LIMIT 1   [ RunTime:0.031763s ]
+SQL: SELECT `product_id`,`code`,`supplier_name`,`store`,`freight_fee`,`sales_num`,`category_id`,`name`,`unit`,`net_content`,`shop_price`,`market_price`,`weight`,`ctime` FROM `onethink_shopping_goods` ORDER BY ctime desc LIMIT 0,10   [ RunTime:0.042963s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.033295s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.032684s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.031924s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.033166s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.033690s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.032086s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.032904s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.054924s ]
+ERR: 模板不存在:./Application/Admin/View/Shopping_mall/index.html
+
+[ 2018-02-03T19:40:14+08:00 ] 127.0.0.1 /index.php?s=/admin/shopping_mall/categorylist.html
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.041861s ]
+SQL: SELECT * FROM `onethink_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032026s ]
+SQL: SELECT `id` FROM `onethink_menu` WHERE ( url like '%Shopping_mall/categorylist%' ) LIMIT 1   [ RunTime:0.028713s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_category` [ RunTime:0.059469s ]
+SQL: SHOW COLUMNS FROM `onethink_product` [ RunTime:0.032515s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `onethink_product`
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.028380s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.029357s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.030979s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.029233s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.030912s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032262s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031765s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 模板不存在:./Application/Admin/View/Shopping_mall/categorylist.html
+
+[ 2018-02-03T19:40:15+08:00 ] 127.0.0.1 /index.php?s=/admin/shopping_mall/index.html
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.029062s ]
+SQL: SELECT * FROM `onethink_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030369s ]
+SQL: SELECT `id` FROM `onethink_menu` WHERE ( url like '%Shopping_mall/index%' ) LIMIT 1   [ RunTime:0.026852s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods` [ RunTime:0.031737s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_category` [ RunTime:0.026320s ]
+NOTIC: [8] Undefined index: where D:\wamp\www\jjw\Application\Admin\Controller\AdminController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_shopping_goods` LIMIT 1   [ RunTime:0.037135s ]
+SQL: SELECT `product_id`,`code`,`supplier_name`,`store`,`freight_fee`,`sales_num`,`category_id`,`name`,`unit`,`net_content`,`shop_price`,`market_price`,`weight`,`ctime` FROM `onethink_shopping_goods` ORDER BY ctime desc LIMIT 0,10   [ RunTime:0.030200s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.026287s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.027866s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.028421s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.028261s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.026353s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.032577s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.028279s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.032001s ]
+ERR: 模板不存在:./Application/Admin/View/Shopping_mall/index.html
+
+[ 2018-02-03T19:40:19+08:00 ] 127.0.0.1 /index.php?s=/admin/shop/index.html
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.029378s ]
+SQL: SELECT * FROM `onethink_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.035856s ]
+SQL: SELECT `id` FROM `onethink_menu` WHERE ( url like '%Shop/index%' ) LIMIT 1   [ RunTime:0.029458s ]
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.029815s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=138 ) LIMIT 1   [ RunTime:0.028846s ]
+SQL: SELECT DISTINCT  `group` FROM `onethink_menu` WHERE ( pid = 138 )  [ RunTime:0.028907s ]
+SQL: SELECT `id`,`url` FROM `onethink_menu` WHERE ( `pid` = 138 ) AND ( `hide` = 0 )  [ RunTime:0.026219s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '店铺管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.027739s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '会员管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029184s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '利润分配管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.028369s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '活动管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029321s ]
+SQL: SHOW COLUMNS FROM `onethink_jjw_store` [ RunTime:0.030475s ]
+SQL: SELECT * FROM `onethink_jjw_store`  [ RunTime:0.028433s ]
+SQL: SHOW COLUMNS FROM `onethink_jjw_userinfo` [ RunTime:0.027559s ]
+SQL: SELECT `uid` FROM `onethink_jjw_userinfo` WHERE ( store_id=4 ) LIMIT 1   [ RunTime:0.029712s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.030403s ]
+SQL: SELECT `referrer_user` FROM `onethink_user` WHERE ( uid=10022 ) LIMIT 1   [ RunTime:0.028391s ]
+SQL: SELECT `uid` FROM `onethink_jjw_userinfo` WHERE ( store_id=5 ) LIMIT 1   [ RunTime:0.031247s ]
+SQL: SELECT `referrer_user` FROM `onethink_user` WHERE ( uid=10010 ) LIMIT 1   [ RunTime:0.028225s ]
+SQL: SELECT `uid` FROM `onethink_jjw_userinfo` WHERE ( store_id=7 ) LIMIT 1   [ RunTime:0.026313s ]
+SQL: SELECT `referrer_user` FROM `onethink_user` WHERE ( uid=10026 ) LIMIT 1   [ RunTime:0.030416s ]
+SQL: SELECT `uid` FROM `onethink_jjw_userinfo` WHERE ( store_id=8 ) LIMIT 1   [ RunTime:0.028017s ]
+SQL: SELECT `referrer_user` FROM `onethink_user` WHERE ( uid=10045 ) LIMIT 1   [ RunTime:0.031849s ]
+SQL: SELECT `uid` FROM `onethink_jjw_userinfo` WHERE ( store_id=9 ) LIMIT 1   [ RunTime:0.032529s ]
+SQL: SELECT `referrer_user` FROM `onethink_user` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.030398s ]
+SQL: SELECT `uid` FROM `onethink_jjw_userinfo` WHERE ( store_id=10 ) LIMIT 1   [ RunTime:0.035802s ]
+SQL: SELECT `referrer_user` FROM `onethink_user` WHERE ( uid=10129 ) LIMIT 1   [ RunTime:0.027644s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000727s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002258s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 5 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 128 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 128 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 128 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 128 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 128 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 128 行.
+NOTIC: [8] Undefined variable: _page D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 148 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.189215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.190923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004208s ]
+
+[ 2018-02-03T19:40:21+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/index.html
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.033528s ]
+SQL: SELECT * FROM `onethink_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.033478s ]
+SQL: SELECT `id` FROM `onethink_menu` WHERE ( url like '%ShoppingMall/index%' ) LIMIT 1   [ RunTime:0.033909s ]
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.033219s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=173 ) LIMIT 1   [ RunTime:0.032681s ]
+SQL: SELECT DISTINCT  `group` FROM `onethink_menu` WHERE ( pid = 173 )  [ RunTime:0.039994s ]
+SQL: SELECT `id`,`url` FROM `onethink_menu` WHERE ( `pid` = 173 ) AND ( `hide` = 0 )  [ RunTime:0.031685s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '商品管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.063594s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '分类管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.033982s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '规格管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.035436s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods` [ RunTime:0.033397s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_category` [ RunTime:0.035880s ]
+NOTIC: [8] Undefined index: where D:\wamp\www\jjw\Application\Admin\Controller\AdminController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_shopping_goods` LIMIT 1   [ RunTime:0.033298s ]
+SQL: SELECT `product_id`,`code`,`supplier_name`,`store`,`freight_fee`,`sales_num`,`category_id`,`name`,`unit`,`net_content`,`shop_price`,`market_price`,`weight`,`ctime` FROM `onethink_shopping_goods` ORDER BY ctime desc LIMIT 0,10   [ RunTime:0.033985s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.031068s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.031793s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.032614s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.031553s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.030997s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.031908s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.037410s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.032399s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000745s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002259s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 5 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 133 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 133 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 133 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 133 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 133 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 133 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 133 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 133 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.183473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.185299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000968s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002999s ]
+
+[ 2018-02-03T19:40:24+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/Categorylist.html
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.034373s ]
+SQL: SELECT * FROM `onethink_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.034229s ]
+SQL: SELECT `id` FROM `onethink_menu` WHERE ( url like '%ShoppingMall/categorylist%' ) LIMIT 1   [ RunTime:0.037740s ]
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.040306s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=175 ) LIMIT 1   [ RunTime:0.034408s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=173 ) LIMIT 1   [ RunTime:0.037151s ]
+SQL: SELECT DISTINCT  `group` FROM `onethink_menu` WHERE ( pid = 173 )  [ RunTime:0.035477s ]
+SQL: SELECT `id`,`url` FROM `onethink_menu` WHERE ( `pid` = 173 ) AND ( `hide` = 0 )  [ RunTime:0.031512s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '商品管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.037570s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '分类管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.042314s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '规格管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032711s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_category` [ RunTime:0.030655s ]
+SQL: SHOW COLUMNS FROM `onethink_product` [ RunTime:0.040018s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `onethink_product`
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.033453s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.029781s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.052645s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.037010s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.085133s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.050863s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.094998s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/mainTitle.html): failed to open stream: No such file or directory D:\wamp\www\jjw\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000694s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002191s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 5 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 140 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 148 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 149 行.
+NOTIC: [8] Undefined index: start D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 156 行.
+NOTIC: [8] Undefined index: end D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 158 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 285 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.149980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002749s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002965s ]
+
+[ 2018-02-03T19:40:27+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/speclist.html
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.032906s ]
+SQL: SELECT * FROM `onethink_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.043127s ]
+SQL: SELECT `id` FROM `onethink_menu` WHERE ( url like '%ShoppingMall/speclist%' ) LIMIT 1   [ RunTime:0.027860s ]
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.027944s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=177 ) LIMIT 1   [ RunTime:0.028819s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=173 ) LIMIT 1   [ RunTime:0.029948s ]
+SQL: SELECT DISTINCT  `group` FROM `onethink_menu` WHERE ( pid = 173 )  [ RunTime:0.030200s ]
+SQL: SELECT `id`,`url` FROM `onethink_menu` WHERE ( `pid` = 173 ) AND ( `hide` = 0 )  [ RunTime:0.029613s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '商品管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032010s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '分类管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.028817s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '规格管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031325s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_specs` [ RunTime:0.041634s ]
+NOTIC: [8] Undefined index: where D:\wamp\www\jjw\Application\Admin\Controller\AdminController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_shopping_goods_specs` LIMIT 1   [ RunTime:0.028146s ]
+SQL: SELECT `specs_name`,`show_name`,`specs_id`,`specs_unit`,`type`,`ctime` FROM `onethink_shopping_goods_specs` ORDER BY ctime desc LIMIT 0,10   [ RunTime:0.031457s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000941s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002604s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\98939948ba99b2b9d51eac2275b3fe55.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.158385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003800s ]
+
+[ 2018-02-03T19:40:33+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/index.html
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.044402s ]
+SQL: SELECT * FROM `onethink_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.037368s ]
+SQL: SELECT `id` FROM `onethink_menu` WHERE ( url like '%ShoppingMall/index%' ) LIMIT 1   [ RunTime:0.035117s ]
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.033706s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=173 ) LIMIT 1   [ RunTime:0.032183s ]
+SQL: SELECT DISTINCT  `group` FROM `onethink_menu` WHERE ( pid = 173 )  [ RunTime:0.031925s ]
+SQL: SELECT `id`,`url` FROM `onethink_menu` WHERE ( `pid` = 173 ) AND ( `hide` = 0 )  [ RunTime:0.039931s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '商品管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032319s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '分类管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.033753s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '规格管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.042428s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods` [ RunTime:0.036170s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_category` [ RunTime:0.033564s ]
+NOTIC: [8] Undefined index: where D:\wamp\www\jjw\Application\Admin\Controller\AdminController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_shopping_goods` LIMIT 1   [ RunTime:0.032213s ]
+SQL: SELECT `product_id`,`code`,`supplier_name`,`store`,`freight_fee`,`sales_num`,`category_id`,`name`,`unit`,`net_content`,`shop_price`,`market_price`,`weight`,`ctime` FROM `onethink_shopping_goods` ORDER BY ctime desc LIMIT 0,10   [ RunTime:0.041413s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.031962s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.035849s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.031272s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.060949s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.034459s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.032816s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.032731s ]
+SQL: SELECT `name` FROM `onethink_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.042286s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000685s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002276s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 5 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 133 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 133 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 133 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 133 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 133 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 133 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 133 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 133 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.186490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.187996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003079s ]
+
+[ 2018-02-03T19:41:31+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shippingaddress/edit_default_adds.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004321s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.049556s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid="oiCEG1IMOfx9rI22iIxbvIB5_uxk" ) LIMIT 1   [ RunTime:0.033225s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_address` [ RunTime:0.033789s ]
+SQL: SELECT `uid` FROM `onethink_user` WHERE ( openid="oiCEG1IMOfx9rI22iIxbvIB5_uxk" ) LIMIT 1   [ RunTime:0.030013s ]
+SQL: UPDATE `onethink_shopping_goods_address` SET `is_default`=1 WHERE ( uid=10056 ) [ RunTime:0.030287s ]
+SQL: UPDATE `onethink_shopping_goods_address` SET `is_default`=2 WHERE ( address_id=51 ) [ RunTime:0.034888s ]
+
+[ 2018-02-03T19:42:43+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shopping/del_order.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002521s ]
+SQL: SHOW COLUMNS FROM `onethink_user` [ RunTime:0.037477s ]
+SQL: SELECT * FROM `onethink_user` WHERE ( openid="oiCEG1IMOfx9rI22iIxbvIB5_uxk" ) LIMIT 1   [ RunTime:0.039702s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_orders_info` [ RunTime:0.033418s ]
+SQL: UPDATE `onethink_shopping_goods_orders_info` SET `is_del`=1 WHERE ( order_info_id=223 ) [ RunTime:0.032887s ]
+
+[ 2018-02-03T19:50:44+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/Categorylist.html
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.030495s ]
+SQL: SELECT * FROM `onethink_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032471s ]
+SQL: SELECT `id` FROM `onethink_menu` WHERE ( url like '%ShoppingMall/categorylist%' ) LIMIT 1   [ RunTime:0.031801s ]
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.046682s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=175 ) LIMIT 1   [ RunTime:0.031790s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=173 ) LIMIT 1   [ RunTime:0.030994s ]
+SQL: SELECT DISTINCT  `group` FROM `onethink_menu` WHERE ( pid = 173 )  [ RunTime:0.032783s ]
+SQL: SELECT `id`,`url` FROM `onethink_menu` WHERE ( `pid` = 173 ) AND ( `hide` = 0 )  [ RunTime:0.038195s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '商品管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.034412s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '分类管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031006s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '规格管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029991s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_category` [ RunTime:0.036046s ]
+SQL: SHOW COLUMNS FROM `onethink_product` [ RunTime:0.031783s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `onethink_product`
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031236s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031779s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.030743s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.034486s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.030710s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.030347s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.033259s ]
+ERR: 1146:Table 'jjw.onethink_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `onethink_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/mainTitle.html): failed to open stream: No such file or directory D:\wamp\www\jjw\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000696s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002086s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 5 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 140 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 148 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 149 行.
+NOTIC: [8] Undefined index: start D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 156 行.
+NOTIC: [8] Undefined index: end D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 158 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 285 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.160165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.164168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003249s ]
+
+[ 2018-02-03T19:50:49+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/Categoryadd/id/40.html
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.035594s ]
+SQL: SELECT * FROM `onethink_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.038548s ]
+SQL: SELECT `id` FROM `onethink_menu` WHERE ( url like '%ShoppingMall/categoryadd%' ) LIMIT 1   [ RunTime:0.033718s ]
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.034826s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=179 ) LIMIT 1   [ RunTime:0.036056s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=175 ) LIMIT 1   [ RunTime:0.033853s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=173 ) LIMIT 1   [ RunTime:0.046875s ]
+SQL: SELECT DISTINCT  `group` FROM `onethink_menu` WHERE ( pid = 173 )  [ RunTime:0.034765s ]
+SQL: SELECT `id`,`url` FROM `onethink_menu` WHERE ( `pid` = 173 ) AND ( `hide` = 0 )  [ RunTime:0.036928s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '商品管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.046737s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '分类管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.037278s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '规格管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032918s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_category` [ RunTime:0.034570s ]
+SQL: SELECT * FROM `onethink_shopping_goods_category` WHERE ( category_id=40 ) LIMIT 1   [ RunTime:0.034911s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/mainTitle.html): failed to open stream: No such file or directory D:\wamp\www\jjw\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000779s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002557s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\c0ac5734c99c1eca70e72a4d89ac55a5.php 第 5 行.
+NOTIC: [8] Use of undefined constant Categoryadd - assumed 'Categoryadd' D:\wamp\www\jjw\Runtime\Cache\Admin\c0ac5734c99c1eca70e72a4d89ac55a5.php 第 102 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.224010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.226569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004063s ]
+
+[ 2018-02-03T19:50:54+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/speclist.html
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.035789s ]
+SQL: SELECT * FROM `onethink_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.033136s ]
+SQL: SELECT `id` FROM `onethink_menu` WHERE ( url like '%ShoppingMall/speclist%' ) LIMIT 1   [ RunTime:0.029344s ]
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.036431s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=177 ) LIMIT 1   [ RunTime:0.036903s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=173 ) LIMIT 1   [ RunTime:0.034498s ]
+SQL: SELECT DISTINCT  `group` FROM `onethink_menu` WHERE ( pid = 173 )  [ RunTime:0.040919s ]
+SQL: SELECT `id`,`url` FROM `onethink_menu` WHERE ( `pid` = 173 ) AND ( `hide` = 0 )  [ RunTime:0.040269s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '商品管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030689s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '分类管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029509s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '规格管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.035545s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_specs` [ RunTime:0.052540s ]
+NOTIC: [8] Undefined index: where D:\wamp\www\jjw\Application\Admin\Controller\AdminController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_shopping_goods_specs` LIMIT 1   [ RunTime:0.052566s ]
+SQL: SELECT `specs_name`,`show_name`,`specs_id`,`specs_unit`,`type`,`ctime` FROM `onethink_shopping_goods_specs` ORDER BY ctime desc LIMIT 0,10   [ RunTime:0.029357s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000700s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002194s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\98939948ba99b2b9d51eac2275b3fe55.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.167065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.169091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001155s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003172s ]
+
+[ 2018-02-03T19:50:58+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/specadd/specs_id/3.html
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.049736s ]
+SQL: SELECT * FROM `onethink_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.169462s ]
+SQL: SELECT `id` FROM `onethink_menu` WHERE ( url like '%ShoppingMall/specadd%' ) LIMIT 1   [ RunTime:0.036122s ]
+SQL: SHOW COLUMNS FROM `onethink_menu` [ RunTime:0.040103s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=178 ) LIMIT 1   [ RunTime:0.030293s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=177 ) LIMIT 1   [ RunTime:0.035851s ]
+SQL: SELECT `id`,`pid`,`title` FROM `onethink_menu` WHERE ( id=173 ) LIMIT 1   [ RunTime:0.036613s ]
+SQL: SELECT DISTINCT  `group` FROM `onethink_menu` WHERE ( pid = 173 )  [ RunTime:0.032170s ]
+SQL: SELECT `id`,`url` FROM `onethink_menu` WHERE ( `pid` = 173 ) AND ( `hide` = 0 )  [ RunTime:0.119587s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '商品管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.080276s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '分类管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.250628s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `onethink_menu` WHERE ( `group` = '规格管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.120652s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_specs` [ RunTime:0.080649s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_specs_value` [ RunTime:0.036242s ]
+SQL: SHOW COLUMNS FROM `onethink_shopping_goods_specs` [ RunTime:0.036368s ]
+SQL: SELECT * FROM `onethink_shopping_goods_specs` WHERE ( specs_id=3 ) LIMIT 1   [ RunTime:0.040900s ]
+SQL: SELECT * FROM `onethink_shopping_goods_specs_value` WHERE ( specs_id=3 )  [ RunTime:0.037867s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/mainTitle.html): failed to open stream: No such file or directory D:\wamp\www\jjw\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002808s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\95c5becd1bba60db257d0233c8f60481.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.205463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.209275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002969s ]
+

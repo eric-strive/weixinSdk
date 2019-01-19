@@ -1,0 +1,336 @@
+[ 2018-06-01T20:40:19+08:00 ] 127.0.0.1 /index.php?s=/Admin/Shop/index.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.029120s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029021s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%Shop/index%' ) LIMIT 1   [ RunTime:0.028512s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.029232s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=138 ) LIMIT 1   [ RunTime:0.028805s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 138 )  [ RunTime:0.029210s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 138 ) AND ( `hide` = 0 )  [ RunTime:0.028690s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '店铺管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.028662s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '会员管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029422s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '利润分配管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.028450s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '活动管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029725s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '广告管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.028035s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_store` [ RunTime:0.028690s ]
+SQL: SELECT * FROM `gjw_jjw_store`  [ RunTime:0.029156s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.034653s ]
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=4 ) LIMIT 1   [ RunTime:0.027695s ]
+SQL: SHOW COLUMNS FROM `gjw_user` [ RunTime:0.029880s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid=10022 ) LIMIT 1   [ RunTime:0.035533s ]
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=5 ) LIMIT 1   [ RunTime:0.029471s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.028602s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=7 ) LIMIT 1   [ RunTime:0.028999s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid=10026 ) LIMIT 1   [ RunTime:0.028937s ]
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=8 ) LIMIT 1   [ RunTime:0.028859s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid=10045 ) LIMIT 1   [ RunTime:0.032768s ]
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=9 ) LIMIT 1   [ RunTime:0.029798s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.029908s ]
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=10 ) LIMIT 1   [ RunTime:0.029780s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid=10129 ) LIMIT 1   [ RunTime:0.029597s ]
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=11 ) LIMIT 1   [ RunTime:0.029860s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.029732s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=14 ) LIMIT 1   [ RunTime:0.030070s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.030147s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=15 ) LIMIT 1   [ RunTime:0.028866s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.028513s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=16 ) LIMIT 1   [ RunTime:0.029047s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.028596s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=17 ) LIMIT 1   [ RunTime:0.028017s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.028137s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=18 ) LIMIT 1   [ RunTime:0.028057s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.027976s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=19 ) LIMIT 1   [ RunTime:0.028285s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.027716s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000747s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002496s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 5 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined variable: _page D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 153 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.260647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.263242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003774s ]
+
+[ 2018-06-01T20:40:43+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/index.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030664s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030474s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/index%' ) LIMIT 1   [ RunTime:0.035506s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.031964s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=173 ) LIMIT 1   [ RunTime:0.036556s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 173 )  [ RunTime:0.033498s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 173 ) AND ( `hide` = 0 )  [ RunTime:0.030308s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '商品管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.033819s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '规格管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.036969s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '分类管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032030s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '订单管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031886s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '撒' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030996s ]
+SQL: SHOW COLUMNS FROM `gjw_yzg_use_remark` [ RunTime:0.032099s ]
+NOTIC: [8] Undefined index: where D:\wamp\www\jjw\Application\Admin\Controller\AdminController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_yzg_use_remark` LIMIT 1   [ RunTime:0.031773s ]
+SQL: SELECT `id`,`name`,`url_path`,`remark`,`create_at` FROM `gjw_yzg_use_remark` ORDER BY id desc LIMIT 0,10   [ RunTime:0.038670s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000957s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002754s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.176875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.179351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003014s ]
+
+[ 2018-06-01T20:40:47+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/shoppingAdd.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030574s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030401s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/shoppingadd%' ) LIMIT 1   [ RunTime:0.030002s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030460s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=176 ) LIMIT 1   [ RunTime:0.030190s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=174 ) LIMIT 1   [ RunTime:0.030316s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=173 ) LIMIT 1   [ RunTime:0.030924s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 173 )  [ RunTime:0.028954s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 173 ) AND ( `hide` = 0 )  [ RunTime:0.029899s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '商品管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030247s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '规格管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030839s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '分类管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030133s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '订单管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029620s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '撒' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030570s ]
+SQL: SHOW COLUMNS FROM `gjw_yzg_use_remark` [ RunTime:0.030053s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001740s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003481s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 5 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 112 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 113 行.
+NOTIC: [8] Undefined variable: category_list D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 121 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 128 行.
+NOTIC: [8] Undefined variable: code D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 134 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 140 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 148 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 156 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 162 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 168 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 186 行.
+NOTIC: [8] Undefined variable: speclist D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 193 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 245 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 251 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 544 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 549 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 579 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 584 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.255244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.257948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003616s ]
+
+[ 2018-06-01T21:36:00+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/shoppingAdd.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.031037s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031454s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/shoppingadd%' ) LIMIT 1   [ RunTime:0.031348s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.031642s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=176 ) LIMIT 1   [ RunTime:0.030941s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=174 ) LIMIT 1   [ RunTime:0.030819s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=173 ) LIMIT 1   [ RunTime:0.030743s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 173 )  [ RunTime:0.031331s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 173 ) AND ( `hide` = 0 )  [ RunTime:0.030984s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '商品管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031739s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '规格管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031883s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '分类管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032965s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '订单管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031440s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '撒' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031008s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods` [ RunTime:0.032569s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_detail` [ RunTime:0.031795s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_specs_product` [ RunTime:0.036548s ]
+NOTIC: [2] unlink(./Runtime/Temp/a8e4a90c85b58338fc2cc2d70f6fc043.php): No such file or directory D:\wamp\www\jjw\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] unlink(./Runtime/Temp/42a3a5a437d64824ec1fd438303009f4.php): No such file or directory D:\wamp\www\jjw\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_category` [ RunTime:0.035225s ]
+SQL: SELECT * FROM `gjw_shopping_goods_category` WHERE ( `is_shopping` = 1 ) AND ( `status` = 1 )  [ RunTime:0.034704s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_specs` [ RunTime:0.031928s ]
+SQL: SELECT `specs_name`,`show_name`,`specs_id`,`specs_unit` FROM `gjw_shopping_goods_specs`  [ RunTime:0.031637s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000933s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002495s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 5 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 112 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 113 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 128 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 140 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 148 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 156 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 162 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 168 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 186 行.
+NOTIC: [8] Use of undefined constant specs_id - assumed 'specs_id' D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [8] Undefined variable: spec_product D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [8] Use of undefined constant specs_id - assumed 'specs_id' D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [8] Undefined variable: spec_product D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [8] Use of undefined constant specs_id - assumed 'specs_id' D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [8] Undefined variable: spec_product D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [8] Use of undefined constant specs_id - assumed 'specs_id' D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [8] Undefined variable: spec_product D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [8] Use of undefined constant specs_id - assumed 'specs_id' D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [8] Undefined variable: spec_product D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 245 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 251 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 544 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 549 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 579 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 584 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.256447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.260194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000915s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003900s ]
+
+[ 2018-06-01T21:36:01+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/index.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032447s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032257s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/index%' ) LIMIT 1   [ RunTime:0.031496s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032532s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=173 ) LIMIT 1   [ RunTime:0.034877s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 173 )  [ RunTime:0.032628s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 173 ) AND ( `hide` = 0 )  [ RunTime:0.032347s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '商品管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032332s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '规格管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032399s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '分类管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.033031s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '订单管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031470s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '撒' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031999s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods` [ RunTime:0.033028s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_category` [ RunTime:0.032022s ]
+NOTIC: [8] Undefined index: where D:\wamp\www\jjw\Application\Admin\Controller\AdminController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_shopping_goods` LIMIT 1   [ RunTime:0.031675s ]
+SQL: SELECT `product_id`,`code`,`supplier_name`,`store`,`freight_fee`,`sales_num`,`category_id`,`name`,`unit`,`net_content`,`shop_price`,`market_price`,`weight`,`ctime` FROM `gjw_shopping_goods` ORDER BY ctime desc LIMIT 0,10   [ RunTime:0.032206s ]
+SQL: SELECT `name` FROM `gjw_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.031721s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000770s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002726s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 5 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 133 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.175840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.178494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004037s ]
+
+[ 2018-06-01T21:36:08+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/shoppingAdd.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.028851s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.028608s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/shoppingadd%' ) LIMIT 1   [ RunTime:0.028551s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.028932s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=176 ) LIMIT 1   [ RunTime:0.028222s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=174 ) LIMIT 1   [ RunTime:0.028188s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=173 ) LIMIT 1   [ RunTime:0.028722s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 173 )  [ RunTime:0.028573s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 173 ) AND ( `hide` = 0 )  [ RunTime:0.029158s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '商品管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031250s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '规格管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.028390s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '分类管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.028842s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '订单管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.033954s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '撒' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.028886s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods` [ RunTime:0.029997s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_detail` [ RunTime:0.033106s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_specs_product` [ RunTime:0.030547s ]
+NOTIC: [2] unlink(./Runtime/Temp/a8e4a90c85b58338fc2cc2d70f6fc043.php): No such file or directory D:\wamp\www\jjw\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] unlink(./Runtime/Temp/42a3a5a437d64824ec1fd438303009f4.php): No such file or directory D:\wamp\www\jjw\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_category` [ RunTime:0.029396s ]
+SQL: SELECT * FROM `gjw_shopping_goods_category` WHERE ( `is_shopping` = 1 ) AND ( `status` = 1 )  [ RunTime:0.029638s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_specs` [ RunTime:0.028827s ]
+SQL: SELECT `specs_name`,`show_name`,`specs_id`,`specs_unit` FROM `gjw_shopping_goods_specs`  [ RunTime:0.028750s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000885s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002475s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 5 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 112 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 113 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 128 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 140 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 148 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 156 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 162 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 168 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 186 行.
+NOTIC: [8] Use of undefined constant specs_id - assumed 'specs_id' D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [8] Undefined variable: spec_product D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [8] Use of undefined constant specs_id - assumed 'specs_id' D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [8] Undefined variable: spec_product D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [8] Use of undefined constant specs_id - assumed 'specs_id' D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [8] Undefined variable: spec_product D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [8] Use of undefined constant specs_id - assumed 'specs_id' D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [8] Undefined variable: spec_product D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [8] Use of undefined constant specs_id - assumed 'specs_id' D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [8] Undefined variable: spec_product D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 194 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 245 行.
+NOTIC: [8] Undefined variable: product_info D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 251 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 544 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 549 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 579 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\1075f5ba30581bf272c2c13fdfef540c.php 第 584 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.253696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.255434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003329s ]
+

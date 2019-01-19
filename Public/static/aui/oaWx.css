@@ -1,0 +1,285 @@
+body{ margin:0; padding:0; font-family:"微软雅黑",Helvetica, Arial, sans-serif; }
+a{ text-decoration:none; color:#333333; cursor: pointer;}
+a:hover,a:visited,a:active{color:#333333;}
+ul,li,dl,dt,dd,p,form,h1,h2,h3,h4,h5,dl,dt,dd{ margin:0; padding:0; list-style:none;}
+
+select, input[type="text"], input[type="search"], input[type="password"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="tel"], input[type="color"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"]{
+}
+
+.btn-form{padding-top: 10px; padding-bottom: 10px; font-size: 1rem}
+.input-text{padding-top: 13px; padding-bottom: 13px}
+
+
+/** header  **/
+.header{ text-align: center; position: relative; height:50px; line-height:50px}
+.header .title{ padding:10px 0 10px 0; font-size: 1.2rem}
+.header-back{position:absolute; left: 10px; margin-right:5px; color: #646464; font-size: 1rem}
+.header-right{position:absolute; right: 10px; margin-right:5px; color: #646464; font-size: 1rem}
+
+.icon i{ font-size:20px}
+
+
+/** 登录  **/
+#login .weui_label{ width: 70px }
+.a{ padding-left:10px; padding-right:10px; margin-top: 10px}
+.b{ background-color: #fff; padding-left:10px; padding-right:10px; }
+
+.goReg{ text-align: right; padding-bottom:10px; font-size:0.8rem}
+
+
+/** 注册  **/
+.btn-ver{ position: absolute; right: 10px; margin-top: 3px; }
+.filiale select{ position: absolute; padding: 0; width:60%; margin-top: 2px; left:110px; font-size: 14px; border:1px #fff solid}
+
+/** 实名认证  **/
+
+
+/** 个人中心  **/
+.userTop{background-color: #29b6f7; padding-top:15px; overflow: hidden; position: relative;}
+.userTop .aui-arrow-right:after{color: #fff}
+.pic{ margin-bottom: 10px; float: left; margin-left:20px; margin-right: 15px;}
+.pic i {
+    width: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 auto;
+    background-image: url(../Images/weixin/user.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: -5px
+}
+
+.name{color: #fff; display: block;}
+.fun{ padding-top:5px; padding-bottom:5px; display: block;}
+.fun>i{ font-size:1rem; color: #93ddff}
+.fun>i.cur{color:#fff;}
+
+
+.u1{background-color: #29b6f7; padding-top: 10px; padding-bottom: 15px; border-top: 1px #70d1fe solid;margin-bottom: 10px}
+.u1 ul{display:-webkit-box}
+.u1 ul li{-webkit-box-flex: 1.0; text-align: center; width: 1% }
+.u1 ul li:first-child{ border-right:1px #70d1fe solid;}
+.u1 ul li p{color:#fff; font-size:1rem;}
+.u1 ul li p.money{font-size: 1.5rem; }
+
+.u2{padding-left: 0px; padding-right: 0px; margin-bottom: 10px;}
+.u2 ul{display:-webkit-box}
+.u2 ul li{-webkit-box-flex: 1.0; width:1%;padding-top:20px; padding-bottom: 20px; text-align: center; }
+.u2 ul li.cur{background-color:#f3f3f3}
+.u2 ul li p{font-size: 0.8rem}
+.u2 ul li:last-child{border: 0}
+.u2 ul li p.num{font-size: 1.5rem; color: #000;}
+
+.u3{background-color: #fff}
+.u3 ul{ display:-webkit-box; padding:0; overflow: hidden; }
+.u3 ul:last-child{border-bottom:1px #f3f3f3 solid;}
+.u3 ul li{-webkit-box-flex: 1.0; width: 1%; text-align:center; line-height:12px; padding-top:20px; padding-bottom: 25px; font-size: 0.8rem; border:1px #f3f3f3 solid; border-right: 0px; border-bottom: 0px}
+.u3 ul li i{font-size: 50px;}
+
+.u3 .icon{
+	width: 42px; 
+	height: 42px; 
+	display: block; 
+	background-repeat: no-repeat;
+	background-size:100%;
+	margin: 0 auto
+}
+.icon-userInfo{background-image: url(../Images/weixin/link-1.png);}
+.icon-realName{background-image: url(../Images/weixin/link-2.png);}
+.icon-pinggu{background-image: url(../Images/weixin/link-3.png);}
+.icon-info{background-image: url(../Images/weixin/link-4.png);}
+.icon-search{background-image: url(../Images/weixin/link-5.png);}
+.icon-bank{background-image: url(../Images/weixin/link-7.png);}
+.icon-ewm{background-image: url(../Images/weixin/link-6.png);}
+
+
+/** 推荐信息  **/
+#recInfo{padding-bottom: 10px; padding-top: 10px; margin-bottom: 15px; padding-left: 0px; padding-right: 0px;  border-radius:4px; -webkit-box-shadow:1px 1px 4px #d2d2d2;}
+#recInfo ul{display:-webkit-box; }
+#recInfo ul li{ -webkit-box-flex:1.0; width: 1%; text-align: center; font-size:0.8rem; padding-top: 3px; padding-bottom: 3px; color: #646464}
+#recInfo ul li b{font-family: "Arial"; font-size: 1.2rem}
+
+#recList{padding-bottom:10px; }
+#recList dl{ margin: 10px; margin-bottom: 15px; overflow:hidden; border-radius:4px; -webkit-box-shadow:1px 1px 4px #d2d2d2;}
+#recList dl dt{font-size:1rem;padding-top:7px; padding-bottom: 5px; border-bottom: 1px #dfe7ec dotted; color: #5b99c0; margin-bottom: 10px;}
+#recList dl dd{padding-bottom: 10px;}
+#recList dl dd ul{display: -webkit-box}
+#recList dl dd ul li{-webkit-box-flex:1.0; width: 1%; margin-bottom: 5px; color:#646464; font-size: 0.9rem}
+
+@media screen and (max-width: 320px){
+    #recList dl dt{font-size: 0.8rem; color:#5c96bb}
+    #recList dl dd ul li{font-size: 0.8rem }
+
+    #reg .aui-radio-name{ font-size: 12px; }
+}
+
+.tableClient{width:100%; border-collapse: collapse;}
+.tableClient td{font-size: 0.8rem; font-family:"Arial"; height:35px; line-height: 35px; padding-left: 3px}
+.tableClient thead tr td{border-bottom: 1px #5cc7f9 solid; color: #2c93c3}
+.tableClient tbody tr td{border-bottom: 1px #f2f2f2 solid}
+.center{ text-align: center }
+
+
+/** 修改资料  **/
+.info-right{ right: 35px; position: absolute; color: #646464 }
+
+#userEdit .info-right{font-family:"Arial"; }
+
+/** 车主基本信息  **/
+#ass .aui-input-row{position: relative;}
+#ass .aui-input-row .aui-input{position: absolute;}
+#ass .float{float: left}
+#ass .row-repair{ width: 100%; padding-top: 10px; padding-bottom: 10px; }
+#ass .row-repair .info-right{right:15px;}
+
+#ass .date{height: 45px; overflow: hidden;}
+#ass .filiale select{left: 90px;}
+
+.input-text .age{ left: 80px; margin-top:3px; font-size: 0.9rem; position: absolute;}
+
+
+#ass3 .price{text-align: center; font-size:1.7rem; margin-bottom: 10px; padding-top: 10px; padding-bottom: 10px}
+#ass3 .result{padding-bottom:10px; padding-top:10px}
+#ass3 .result p{line-height: 30px; color: #000}
+#ass3 .car{padding-top: 10px}
+#ass3 .center{padding-top:10px}
+#ass3 .center .btn-form{ margin-left:5px; margin-right:5px; }
+#ass3 .tips{border:1px #ccc dotted; padding:5px 10px; margin: 10px; margin-top: 20px;}
+#ass3 .tips p{ line-height: 30px; color: #646464}
+
+/** 历史评估查询  **/
+#historySearchList dl{ overflow:hidden; padding-top:5px; padding-bottom:5px; margin-bottom: 10px}
+#historySearchList dl dt{margin-bottom: 10px; border-bottom: 1px #f2f2f2 solid; padding-bottom: 5px; font-size: 0.9rem}
+#historySearchList dl ul{display: -webkit-box; padding-bottom: 5px}
+#historySearchList dl ul li{-webkit-box-flex:1.0; width: 1%; font-size:0.9rem; color: #646464}
+#historySearch .aui-input-row .aui-input{padding:0px;}
+#historySearchList dl dd ul li label{color: #336b9f}
+
+
+/** 用户修改  **/
+#userEditShow .aui-input-row{ width: 100% }
+
+
+/** 车品牌选择  **/
+.carSelect{width:100%; height: 100%; overflow:auto; background-color:#fff; position:fixed; z-index: 10000; top:55px; bottom:0px; padding-bottom:95px}
+.carSelect .bx{color:#ff6138; line-height: 40px; height: 40px; padding-left:10px}
+.carSelect  dl dt{font-size:0.9rem; background-color: #f7f7f7; height: 30px; line-height: 30px; padding-left:10px}
+.carSelect  dl dd{ font-size:0.9rem; color:#646464;  height: 40px; line-height: 40px; padding-left:15px; border-bottom: 1px #f7f7f7 solid}
+.carNav{position:fixed; right: 10px; padding: 5px; background-color:#f9f9f9; width: 15px; font-size: 0.7rem; text-align: center}
+.carNav a{color: #ff5f3d; line-height:15px;}
+
+.carReturn{width:100%; position: fixed; bottom:0px; height: 35px; line-height: 35px; background-color: #fff; color:#727272;  z-index: 10001; text-align: center; box-shadow:1px -3px 4px #d5d5d5; }
+
+/** 弹窗  **/
+.shade{ height: 100%; width: 100%;  position:absolute; top: 0; bottom: 0; left:0; right: 0; background-color: #000; opacity:0.6;  -webkit-opacity:0.6; }
+
+/** tis **/
+.tis{text-align: center; padding-top: 30%}
+.tis .empty{ width:192px; height:167px; display: inline-block; margin:0 auto; background-image: url(../Images/weixin/empty.png); background-position: center bottom; background-size:50%; background-repeat: no-repeat;}
+.tis .emptyCar{ width:192px; height:167px; display: inline-block; margin:0 auto; background-image: url(../Images/weixin/emptyCar.png); background-position: center bottom; background-size:70%; background-repeat: no-repeat;}
+.tis .tis-bangding{ width:192px; height:167px; display: inline-block; margin:0 auto; background-image: url(../Images/weixin/tis-bangding.png); background-position: center bottom; background-size:50%; background-repeat: no-repeat;}
+.tis .font{font-size: 1rem}
+
+
+
+/** 绑定银行卡 **/
+#regici>div{ color: #646464;}
+
+
+
+/** 输入框组合 **/
+.input-row-group>.input-row:last-child{border-bottom:0px}
+.input-row{ position: relative; height: 50px; line-height: 50px; border-bottom: 1px #f4f4f4 solid}
+.input-row .input-val{position:absolute; width:100%; padding-left:100px; text-align:left; color: #747474}
+.input-row .input-title{ width: 100px; position: absolute; top: 0px; z-index: 100}
+.input-row .input-arrow{ background-image: url(../Images/weixin/arrow.png); background-position: right center; background-repeat: no-repeat; background-size: 5%; }
+.info-arrow{ width: 16px; height: 16px; display: inline-block; background-image: url(../Images/weixin/arrow.png); background-position: right center; background-repeat: no-repeat; background-size:95%; right: 0px; position: absolute; top: 18px;}
+
+.input-row .input{border:0px; background-color: transparent; padding: 10px 0; ;}
+.form-btn{padding-top: 10px;}
+
+@media screen and (max-width: 320px){
+    .input-row .aui-radio-name{font-size: 0.8rem; margin: 8px 5px 8px -5px}
+}
+
+@media screen and (min-width: 320px){
+    .input-row .aui-radio{margin: 12px 10px;}
+    .input-row .aui-radio-name{ margin: 12px 10px 8px -5px;}
+}
+
+.aui-text-gray{color: #a2a2a2}
+
+
+.bangding{ background-color: #fff; padding-top: 0%; padding-bottom: 20% }
+.bangding p{font-size: 1.2rem;}
+.bangding p.font{font-size:1.2rem;}
+
+.succeedCar{ width: 256px; height: 256px;  display: inline-block; margin:0 auto; background-image: url(../Images/weixin/sue.png); background-position: center bottom; background-size:60%; background-repeat: no-repeat;}
+
+/** 借款咨询 **/
+.jkzx dl{margin-bottom:10px; overflow: hidden;}
+.jkzx-c{margin-left:15px; margin-right: 15px; padding: 5px; border-radius: 4px}
+.jkzx-bg{background-color:#f9d423}
+.jkzx-top{ width: 100%; }
+.jkzx-line-dt{height:4px; background:url(../Images/weixin/jkzx-line.jpg); background-size: 100%;}
+.jkzx-c dt{text-align: center; font-size: 1.2rem; color: #fe492a;}
+.jkzx-c dd{padding-bottom: 10px; padding-top: 10px;}
+.jkzx-c ul{display: -webkit-box; padding-left:10px;}
+.jkzx-c ul li{padding-top: 5px; padding-bottom: 5px;}
+.jkzx-c ul li p{color: #333}
+.jkzx-c ul li.input-title{ -webkit-box-flex:2.5; width: 1%; color:#d36c28; font-size: 0.9rem}
+.jkzx-c ul li.input-val{ -webkit-box-flex:8.5; width: 1%; font-size: 0.9rem}
+
+/*@media screen and (max-width:380px){
+    .jkzx .input-val{ font-size: 0.9rem; padding-left: 90px }
+    .jkzx .input-title{ font-size: 0.9rem; width: 90px }
+}
+@media screen and (max-width:320px){
+    .jkzx .input-val{ font-size: 0.8rem; padding-left: 70px }
+    .jkzx .input-title{ font-size: 0.8rem; width: 80px }
+}
+*/
+
+/** 意见反馈 **/
+.textarea{border:1px #e6e6e6 solid;}
+.feedback{padding-top: 15px; padding-bottom: 15px; margin-bottom: 10px;}
+.feedback .textarea{width:100%; height: 150px; border-radius:4px; padding: 5px}
+
+.fourBig .tit{text-align: center;  padding-top: 20px;}
+.four-tit{ width: 300px; height: 99px; margin:0 auto; margin-bottom: 20px; background-image: url(../Images/weixin/four.png); background-repeat: no-repeat; background-size: 100%; background-position: center; display: block;}
+
+.fourBig{padding-bottom:10px;}
+.fourBig .con ul{ display:-webkit-box; margin-bottom: 30px; margin-right: -10px; margin-left: -10px}
+.fourBig .con ul li{-webkit-box-flex:1.0; width: 1%; text-align: center; padding-right: 15px; padding-left: 15px;}
+.fourBig .con ul li img{ width: 60%; margin: 0 auto}
+.fourBig .con ul li .s1 img{ width: 80%; margin-top: -5px;}
+.fourBig .con ul li .t1{ text-align: center; display: block; height: 120px; text-align:bottom;}
+.fourBig .con ul li .t2{text-align: center; font-size: 1.1rem; color:#ff5400;}
+.fourBig .con ul li .t3{font-size: 0.9rem}
+
+.textBug{position: relative;}
+#historySearchList dl ul.textBug li.t1{-webkit-box-flex:1.0; width: 1% }
+#historySearchList dl ul.textBug li.t2{-webkit-box-flex:5.0; width: 1%;}
+
+.tiaoyue{ color: #333; padding-bottom: 20px;}
+
+
+.loaninfo dl{padding-top:5px; padding-bottom: 5px; margin-bottom: 10px;}
+.loaninfo dt{ display: inline-block; padding-top:15px; padding-right: 10px;  float: left; width:120px; font-size: 0.8rem; text-align: center; height: 75px; border-right:1px #f2f2f2 solid; position: absolute;}
+.loaninfo dt b{font-size: 1.2rem;}
+.loaninfo dd{ display: block; margin-left: 120px; font-size: 0.8rem; padding-left: 20px;margin-top: 2px; margin-bottom: 2px; color: #666}
+.loaninfo dd span{color: #3a64ab}
+
+@media screen and (max-width: 375px){
+    .loaninfo dt{width:110px;}
+    .loaninfo dd{margin-left: 110px; padding-left: 15px;}
+}
+
+@media screen and (max-width: 375px){
+    .loaninfo dd{font-size: 0.9rem}
+}
+
+@media screen and (max-width: 330px){
+    .loaninfo dt{width:100px;}
+    .loaninfo dd{margin-left: 100px; padding-left: 15px; font-size: 0.8rem}
+}

@@ -1,0 +1,70 @@
+[ 2018-07-03T21:37:53+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003343s ]
+SQL: SHOW COLUMNS FROM `gjw_user` [ RunTime:0.033895s ]
+SQL: SELECT * FROM `gjw_user` WHERE ( openid="o9S510j9bzYFU0atQwBkqGRdlNmY" ) LIMIT 1   [ RunTime:0.033314s ]
+NOTIC: [8] Undefined index: register-jump-url D:\wamp\www\jjw\Application\Home\Controller\IndexController.class.php 第 26 行.
+
+[ 2018-07-03T21:42:11+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002985s ]
+SQL: SHOW COLUMNS FROM `gjw_user` [ RunTime:0.032280s ]
+SQL: SELECT * FROM `gjw_user` WHERE ( openid="o9S510j9bzYFU0atQwBkqGRdlNmY" ) LIMIT 1   [ RunTime:0.031563s ]
+
+[ 2018-07-03T21:42:40+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002709s ]
+SQL: SHOW COLUMNS FROM `gjw_user` [ RunTime:0.033377s ]
+SQL: SELECT * FROM `gjw_user` WHERE ( openid="o9S510j9bzYFU0atQwBkqGRdlNmY" ) LIMIT 1   [ RunTime:0.033336s ]
+
+[ 2018-07-03T21:43:05+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002853s ]
+SQL: SHOW COLUMNS FROM `gjw_user` [ RunTime:0.033755s ]
+SQL: SELECT * FROM `gjw_user` WHERE ( openid="o9S510j9bzYFU0atQwBkqGRdlNmY" ) LIMIT 1   [ RunTime:0.034254s ]
+
+[ 2018-07-03T21:43:39+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002590s ]
+SQL: SHOW COLUMNS FROM `gjw_user` [ RunTime:0.033702s ]
+SQL: SELECT * FROM `gjw_user` WHERE ( openid="o9S510j9bzYFU0atQwBkqGRdlNmY" ) LIMIT 1   [ RunTime:0.033859s ]
+
+[ 2018-07-03T22:10:07+08:00 ] 127.0.0.1 /index.php?s=/Donation/Index/donation.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003955s ]
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Donation\Controller\IndexController.class.php 第 42 行.
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Donation\Controller\IndexController.class.php 第 158 行.
+NOTIC: [8] Undefined index: mobile D:\wamp\www\jjw\Application\Donation\Controller\IndexController.class.php 第 164 行.
+SQL: SHOW COLUMNS FROM `gjw_jjw_consume_list` [ RunTime:0.035328s ]
+SQL: INSERT INTO `gjw_jjw_consume_list` (`store_id`,`consume_money`,`consume_time`,`remark`,`out_trade_no`,`type`,`status`) VALUES (21,24232352,1530627004,'店铺扫码支付','5b3b83bcd9a821530627004',2,0) [ RunTime:0.280850s ]
+NOTIC: [8] Use of undefined constant CURLOP_TIMEOUT - assumed 'CURLOP_TIMEOUT' D:\wamp\www\jjw\ThinkPHP\Library\Vendor\WxPayPubHelper\WxPayPubHelper.php 第 155 行.
+NOTIC: [2] curl_setopt() expects parameter 2 to be long, string given D:\wamp\www\jjw\ThinkPHP\Library\Vendor\WxPayPubHelper\WxPayPubHelper.php 第 155 行.
+NOTIC: [2] curl_close(): 41 is not a valid cURL handle resource D:\wamp\www\jjw\ThinkPHP\Library\Vendor\WxPayPubHelper\WxPayPubHelper.php 第 175 行.
+NOTIC: [8] Undefined index: prepay_id D:\wamp\www\jjw\ThinkPHP\Library\Vendor\WxPayPubHelper\WxPayPubHelper.php 第 362 行.
+
+[ 2018-07-03T22:10:10+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shopping/scan_pay.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003219s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.274583s ]
+SQL: SELECT `referrer_store_id` FROM `gjw_jjw_userinfo` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.030737s ]
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Wapshop\Controller\ShoppingController.class.php 第 272 行.
+SQL: SHOW COLUMNS FROM `gjw_jjw_consume_list` [ RunTime:0.031116s ]
+SQL: INSERT INTO `gjw_jjw_consume_list` (`store_id`,`consume_money`,`u_id`,`consume_time`,`out_trade_no`,`remark`,`type`,`status`) VALUES (21,24232352,1,1530627010,'5b3b83c22cfbb1530627010','用户线下买单',4,0) [ RunTime:0.038656s ]
+
+[ 2018-07-03T22:10:43+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shopping/scan_pay.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002472s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.032996s ]
+SQL: SELECT `referrer_store_id` FROM `gjw_jjw_userinfo` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.032440s ]
+NOTIC: [2] trim() expects at least 1 parameter, 0 given D:\wamp\www\jjw\Application\Wapshop\Controller\ShoppingController.class.php 第 272 行.
+SQL: SHOW COLUMNS FROM `gjw_jjw_consume_list` [ RunTime:0.034952s ]
+SQL: INSERT INTO `gjw_jjw_consume_list` (`store_id`,`consume_money`,`u_id`,`consume_time`,`out_trade_no`,`remark`,`type`,`status`) VALUES (21,11,1,1530627043,'5b3b83e322aeb1530627043','用户线下买单',4,0) [ RunTime:0.278160s ]
+

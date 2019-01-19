@@ -1,0 +1,103 @@
+[ 2018-08-04T18:14:46+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000778s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002464s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.036284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003352s ]
+
+[ 2018-08-04T18:15:05+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000746s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002367s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.029768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002630s ]
+
+[ 2018-08-04T18:15:22+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/pay.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002894s ]
+
+[ 2018-08-04T18:17:08+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/pay.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002449s ]
+
+[ 2018-08-04T18:51:32+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000712s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002594s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000999s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003190s ]
+
+[ 2018-08-04T18:52:11+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/pay.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003124s ]
+
+[ 2018-08-04T18:58:26+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/pay.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002379s ]
+
+[ 2018-08-04T18:59:18+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/pay.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002601s ]
+
+[ 2018-08-04T19:00:40+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/pay.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003048s ]
+
+[ 2018-08-04T21:09:47+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003693s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.030407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001151s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002738s ]
+
+[ 2018-08-04T21:22:04+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000814s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002640s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.030833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002804s ]
+

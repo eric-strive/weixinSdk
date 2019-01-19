@@ -1,0 +1,382 @@
+[ 2018-06-30T11:50:48+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shoppingrepresent/representlike.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002555s ]
+SQL: SHOW COLUMNS FROM `gjw_activity_represent_dianzan` [ RunTime:0.031883s ]
+SQL: SHOW COLUMNS FROM `gjw_activity_consume_represent` [ RunTime:0.031549s ]
+SQL: SELECT * FROM `gjw_activity_represent_dianzan` WHERE ( `uid` = 1 ) AND ( `represent_id` = 1 ) AND (  (`ctime` BETWEEN 1530288000 AND 1530374400 ) ) LIMIT 1   [ RunTime:0.031446s ]
+SQL: INSERT INTO `gjw_activity_represent_dianzan` (`ctime`,`uid`,`represent_id`) VALUES (1530330648,1,1) [ RunTime:0.031494s ]
+SQL: SELECT `product_id` FROM `gjw_activity_consume_represent` WHERE ( represent_id=1 ) LIMIT 1   [ RunTime:0.030708s ]
+
+[ 2018-06-30T11:51:16+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shoppingrepresent/representlike.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002337s ]
+SQL: SHOW COLUMNS FROM `gjw_activity_represent_dianzan` [ RunTime:0.031336s ]
+SQL: SHOW COLUMNS FROM `gjw_activity_consume_represent` [ RunTime:0.031046s ]
+SQL: SELECT * FROM `gjw_activity_represent_dianzan` WHERE ( `uid` = 1 ) AND ( `represent_id` = 1 ) AND (  (`ctime` BETWEEN 1530288000 AND 1530374400 ) ) LIMIT 1   [ RunTime:0.030828s ]
+SQL: INSERT INTO `gjw_activity_represent_dianzan` (`ctime`,`uid`,`represent_id`) VALUES (1530330676,1,1) [ RunTime:0.030794s ]
+SQL: SELECT `product_id` FROM `gjw_activity_consume_represent` WHERE ( represent_id=1 ) LIMIT 1   [ RunTime:0.030392s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_gods_orders_info` [ RunTime:0.030854s ]
+ERR: 1146:Table 'jjw.gjw_shopping_gods_orders_info' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gjw_shopping_gods_orders_info`
+SQL: SELECT `status` FROM `gjw_shopping_gods_orders_info` WHERE ( represent_id=1 and uid=1 ) LIMIT 1   [ RunTime:0.030090s ]
+ERR: 1146:Table 'jjw.gjw_shopping_gods_orders_info' doesn't exist
+ [ SQL语句 ] : SELECT `status` FROM `gjw_shopping_gods_orders_info` WHERE ( represent_id=1 and uid=1 ) LIMIT 1  
+
+[ 2018-06-30T11:52:17+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shoppingrepresent/representlike.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003701s ]
+SQL: SHOW COLUMNS FROM `gjw_activity_represent_dianzan` [ RunTime:0.031358s ]
+SQL: SHOW COLUMNS FROM `gjw_activity_consume_represent` [ RunTime:0.031278s ]
+SQL: SELECT * FROM `gjw_activity_represent_dianzan` WHERE ( `uid` = 1 ) AND ( `represent_id` = 1 ) AND (  (`ctime` BETWEEN 1530288000 AND 1530374400 ) ) LIMIT 1   [ RunTime:0.031304s ]
+
+[ 2018-06-30T11:52:38+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shoppingrepresent/representlike.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002328s ]
+SQL: SHOW COLUMNS FROM `gjw_activity_represent_dianzan` [ RunTime:0.031994s ]
+SQL: SHOW COLUMNS FROM `gjw_activity_consume_represent` [ RunTime:0.031190s ]
+SQL: SELECT * FROM `gjw_activity_represent_dianzan` WHERE ( `uid` = 1 ) AND ( `represent_id` = 1 ) AND (  (`ctime` BETWEEN 1530288000 AND 1530374400 ) ) LIMIT 1   [ RunTime:0.030854s ]
+SQL: INSERT INTO `gjw_activity_represent_dianzan` (`ctime`,`uid`,`represent_id`) VALUES (1530330758,1,1) [ RunTime:0.031586s ]
+SQL: SELECT `product_id` FROM `gjw_activity_consume_represent` WHERE ( represent_id=1 ) LIMIT 1   [ RunTime:0.030719s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_orders_info` [ RunTime:0.031322s ]
+SQL: SELECT `status` FROM `gjw_shopping_goods_orders_info` WHERE ( represent_id=1 and uid=1 ) LIMIT 1   [ RunTime:0.030376s ]
+ERR: 1054:Unknown column 'represent_id' in 'where clause'
+ [ SQL语句 ] : SELECT `status` FROM `gjw_shopping_goods_orders_info` WHERE ( represent_id=1 and uid=1 ) LIMIT 1  
+
+[ 2018-06-30T11:53:06+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shoppingrepresent/representlike.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002495s ]
+SQL: SHOW COLUMNS FROM `gjw_activity_represent_dianzan` [ RunTime:0.031315s ]
+SQL: SHOW COLUMNS FROM `gjw_activity_consume_represent` [ RunTime:0.031512s ]
+SQL: SELECT * FROM `gjw_activity_represent_dianzan` WHERE ( `uid` = 1 ) AND ( `represent_id` = 1 ) AND (  (`ctime` BETWEEN 1530288000 AND 1530374400 ) ) LIMIT 1   [ RunTime:0.030526s ]
+SQL: INSERT INTO `gjw_activity_represent_dianzan` (`ctime`,`uid`,`represent_id`) VALUES (1530330785,1,1) [ RunTime:0.031623s ]
+SQL: SELECT `product_id` FROM `gjw_activity_consume_represent` WHERE ( represent_id=1 ) LIMIT 1   [ RunTime:0.030813s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_orders_info` [ RunTime:0.031564s ]
+SQL: SELECT `status` FROM `gjw_shopping_goods_orders_info` WHERE ( represent_id=1 and uid=1 ) LIMIT 1   [ RunTime:0.030355s ]
+ERR: 1054:Unknown column 'represent_id' in 'where clause'
+ [ SQL语句 ] : SELECT `status` FROM `gjw_shopping_goods_orders_info` WHERE ( represent_id=1 and uid=1 ) LIMIT 1  
+
+[ 2018-06-30T11:53:45+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shoppingrepresent/representlike.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003227s ]
+SQL: SHOW COLUMNS FROM `gjw_activity_represent_dianzan` [ RunTime:0.031650s ]
+SQL: SHOW COLUMNS FROM `gjw_activity_consume_represent` [ RunTime:0.031631s ]
+SQL: SELECT * FROM `gjw_activity_represent_dianzan` WHERE ( `uid` = 1 ) AND ( `represent_id` = 1 ) AND (  (`ctime` BETWEEN 1530288000 AND 1530374400 ) ) LIMIT 1   [ RunTime:0.031343s ]
+SQL: INSERT INTO `gjw_activity_represent_dianzan` (`ctime`,`uid`,`represent_id`) VALUES (1530330825,1,1) [ RunTime:0.032070s ]
+SQL: SELECT `product_id` FROM `gjw_activity_consume_represent` WHERE ( represent_id=1 ) LIMIT 1   [ RunTime:0.031218s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_orders_info` [ RunTime:0.031824s ]
+SQL: SELECT `status` FROM `gjw_shopping_goods_orders_info` WHERE ( product_id=1 and uid=1 ) LIMIT 1   [ RunTime:0.031097s ]
+
+[ 2018-06-30T11:54:43+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shoppingrepresent/representlike.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002473s ]
+SQL: SHOW COLUMNS FROM `gjw_activity_represent_dianzan` [ RunTime:0.032590s ]
+SQL: SHOW COLUMNS FROM `gjw_activity_consume_represent` [ RunTime:0.031976s ]
+SQL: SELECT * FROM `gjw_activity_represent_dianzan` WHERE ( `uid` = 1 ) AND ( `represent_id` = 1 ) AND (  (`ctime` BETWEEN 1530288000 AND 1530374400 ) ) LIMIT 1   [ RunTime:0.032371s ]
+SQL: INSERT INTO `gjw_activity_represent_dianzan` (`ctime`,`uid`,`represent_id`) VALUES (1530330882,1,1) [ RunTime:0.032743s ]
+SQL: SELECT `product_id` FROM `gjw_activity_consume_represent` WHERE ( represent_id=1 ) LIMIT 1   [ RunTime:0.032223s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_orders_info` [ RunTime:0.033041s ]
+SQL: SELECT `status` FROM `gjw_shopping_goods_orders_info` WHERE ( product_id=1 and uid=1 and status>=10 ) LIMIT 1   [ RunTime:0.031687s ]
+
+[ 2018-06-30T11:55:05+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shoppingrepresent/representlike.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003179s ]
+SQL: SHOW COLUMNS FROM `gjw_activity_represent_dianzan` [ RunTime:0.033702s ]
+SQL: SHOW COLUMNS FROM `gjw_activity_consume_represent` [ RunTime:0.031987s ]
+SQL: SELECT * FROM `gjw_activity_represent_dianzan` WHERE ( `uid` = 1 ) AND ( `represent_id` = 1 ) AND (  (`ctime` BETWEEN 1530288000 AND 1530374400 ) ) LIMIT 1   [ RunTime:0.032281s ]
+SQL: INSERT INTO `gjw_activity_represent_dianzan` (`ctime`,`uid`,`represent_id`) VALUES (1530330904,1,1) [ RunTime:0.031905s ]
+SQL: SELECT `product_id` FROM `gjw_activity_consume_represent` WHERE ( represent_id=1 ) LIMIT 1   [ RunTime:0.031271s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_orders_info` [ RunTime:0.032444s ]
+SQL: SELECT `status` FROM `gjw_shopping_goods_orders_info` WHERE ( product_id=1 and uid=1 and status>=10 ) LIMIT 1   [ RunTime:0.032320s ]
+SQL: UPDATE `gjw_activity_consume_represent` SET `vote_num`=vote_num+10 WHERE ( represent_id=1 ) [ RunTime:0.033308s ]
+
+[ 2018-06-30T11:57:07+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shoppingrepresent/representlike.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002730s ]
+SQL: SHOW COLUMNS FROM `gjw_activity_represent_dianzan` [ RunTime:0.032116s ]
+SQL: SHOW COLUMNS FROM `gjw_activity_consume_represent` [ RunTime:0.043577s ]
+SQL: SELECT * FROM `gjw_activity_represent_dianzan` WHERE ( `uid` = 1 ) AND ( `represent_id` = 1 ) AND (  (`ctime` BETWEEN 1530288000 AND 1530374400 ) ) LIMIT 1   [ RunTime:0.031916s ]
+
+[ 2018-06-30T11:58:18+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shoppingrepresent/representlike.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002471s ]
+SQL: SHOW COLUMNS FROM `gjw_activity_represent_dianzan` [ RunTime:0.033008s ]
+SQL: SHOW COLUMNS FROM `gjw_activity_consume_represent` [ RunTime:0.032402s ]
+SQL: SELECT * FROM `gjw_activity_represent_dianzan` WHERE ( `uid` = 1 ) AND ( `represent_id` = 1 ) AND (  (`ctime` BETWEEN 1530288000 AND 1530374400 ) ) LIMIT 1   [ RunTime:0.033161s ]
+SQL: INSERT INTO `gjw_activity_represent_dianzan` (`ctime`,`uid`,`represent_id`) VALUES (1530331097,1,1) [ RunTime:0.033516s ]
+SQL: SELECT `product_id` FROM `gjw_activity_consume_represent` WHERE ( represent_id=1 ) LIMIT 1   [ RunTime:0.032641s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_orders_info` [ RunTime:0.033543s ]
+SQL: SELECT `status` FROM `gjw_shopping_goods_orders_info` WHERE ( product_id=1 and uid=1 and status>=10 ) LIMIT 1   [ RunTime:0.032891s ]
+SQL: UPDATE `gjw_activity_consume_represent` SET `vote_num`=vote_num+10 WHERE ( represent_id=1 ) [ RunTime:0.033332s ]
+
+[ 2018-06-30T16:59:25+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shoppingrepresent/representlike.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002197s ]
+SQL: SHOW COLUMNS FROM `gjw_activity_represent_dianzan` [ RunTime:0.031580s ]
+SQL: SHOW COLUMNS FROM `gjw_activity_consume_represent` [ RunTime:0.031560s ]
+SQL: SELECT * FROM `gjw_activity_represent_dianzan` WHERE ( `uid` = 1 ) AND ( `represent_id` = 2 ) AND (  (`ctime` BETWEEN 1530288000 AND 1530374400 ) ) LIMIT 1   [ RunTime:0.031235s ]
+
+[ 2018-06-30T16:59:26+08:00 ] 127.0.0.1 /index.php?s=/Wapshop/Shoppingrepresent/representlike.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003052s ]
+SQL: SHOW COLUMNS FROM `gjw_activity_represent_dianzan` [ RunTime:0.032054s ]
+SQL: SHOW COLUMNS FROM `gjw_activity_consume_represent` [ RunTime:0.031881s ]
+SQL: SELECT * FROM `gjw_activity_represent_dianzan` WHERE ( `uid` = 1 ) AND ( `represent_id` = 2 ) AND (  (`ctime` BETWEEN 1530288000 AND 1530374400 ) ) LIMIT 1   [ RunTime:0.031390s ]
+
+[ 2018-06-30T18:26:00+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000681s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002299s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003376s ]
+
+[ 2018-06-30T18:26:12+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005608s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.031782s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = '18207199230' ) LIMIT 1   [ RunTime:0.031119s ]
+SQL: UPDATE `gjw_ucenter_member` SET `last_login_time`=1530354371,`last_login_ip`='2130706433' WHERE ( `id` = 15 ) [ RunTime:0.030835s ]
+SQL: SHOW COLUMNS FROM `gjw_member` [ RunTime:0.032588s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status` FROM `gjw_member` WHERE ( `uid` = 15 ) LIMIT 1   [ RunTime:0.031734s ]
+SQL: SHOW COLUMNS FROM `gjw_action` [ RunTime:0.031666s ]
+SQL: SELECT * FROM `gjw_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.031679s ]
+SQL: SHOW COLUMNS FROM `gjw_member` [ RunTime:0.033045s ]
+SQL: SELECT `nickname` FROM `gjw_member` WHERE ( `uid` = 15 ) LIMIT 1   [ RunTime:0.031760s ]
+SQL: SHOW COLUMNS FROM `gjw_action_log` [ RunTime:0.032203s ]
+SQL: INSERT INTO `gjw_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (1,15,2130706433,'member',15,1530354371,'18207199230在2018-06-30 18:26登录了后台') [ RunTime:0.032068s ]
+SQL: SELECT * FROM `gjw_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.032218s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\jjw\Application\Common\Common\function.php 第 665 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\wamp\www\jjw\Application\Common\Common\function.php 第 665 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_action_log` WHERE ( `action_id` = 1 ) AND ( `user_id` = 15 ) AND ( `create_time` > 1530267971 ) LIMIT 1   [ RunTime:0.031605s ]
+SQL: UPDATE `gjw_member` SET `score`=score+10 WHERE ( uid=15 AND status>-1 ) [ RunTime:0.031507s ]
+SQL: UPDATE `gjw_member` SET `login`=`login`+1,`last_login_time`=1530354371,`last_login_ip`='2130706433' WHERE ( `uid` = 15 ) [ RunTime:0.031650s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_store` [ RunTime:0.032208s ]
+SQL: SELECT * FROM `gjw_jjw_store` WHERE ( admin_id=15 ) LIMIT 1   [ RunTime:0.032758s ]
+
+[ 2018-06-30T18:26:14+08:00 ] 127.0.0.1 /index.php?s=/Admin/Merchant/index.html
+SQL: SHOW COLUMNS FROM `gjw_auth_group_access` [ RunTime:0.033092s ]
+SQL: SELECT `rules` FROM gjw_auth_group_access a INNER JOIN gjw_auth_group g on a.group_id=g.id  WHERE ( a.uid='15' and g.status='1' )  [ RunTime:0.033178s ]
+SQL: SHOW COLUMNS FROM `gjw_auth_rule` [ RunTime:0.032759s ]
+SQL: SELECT `condition`,`name` FROM `gjw_auth_rule` WHERE ( `id` IN ('76','108','109','217','230','231','232','233','234','235','236','237','238','239','240','241','242','248','249','250','251','252','253') ) AND ( `type` IN ('1','2') ) AND ( `status` = 1 )  [ RunTime:0.032405s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.033059s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031834s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%Merchant/index%' ) LIMIT 1   [ RunTime:0.031699s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032183s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.031457s ]
+SQL: SHOW COLUMNS FROM `gjw_auth_rule` [ RunTime:0.032460s ]
+SQL: SELECT `condition`,`name` FROM `gjw_auth_rule` WHERE ( `id` IN ('76','108','109','217','230','231','232','233','234','235','236','237','238','239','240','241','242','248','249','250','251','252','253') ) AND ( `type` = 2 ) AND ( `status` = 1 )  [ RunTime:0.031736s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 147 )  [ RunTime:0.031798s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 147 ) AND ( `hide` = 0 )  [ RunTime:0.032009s ]
+SQL: SHOW COLUMNS FROM `gjw_auth_rule` [ RunTime:0.033747s ]
+SQL: SELECT `condition`,`name` FROM `gjw_auth_rule` WHERE ( `id` IN ('76','108','109','217','230','231','232','233','234','235','236','237','238','239','240','241','242','248','249','250','251','252','253') ) AND ( `type` = 1 ) AND ( `status` = 1 )  [ RunTime:0.032156s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '店铺相关' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032330s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '会员管理' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032464s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '数据统计' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032083s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '活动管理' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031756s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '隐藏' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031441s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '2324' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031297s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_store` [ RunTime:0.032393s ]
+SQL: SELECT * FROM `gjw_jjw_store` WHERE ( admin_id=15 ) LIMIT 1   [ RunTime:0.033390s ]
+SQL: SHOW COLUMNS FROM `gjw_area` [ RunTime:0.033241s ]
+SQL: SELECT * FROM `gjw_area` WHERE ( pid=0 )  [ RunTime:0.032895s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.033787s ]
+SQL: SELECT `id` FROM `gjw_jjw_userinfo` WHERE ( store_id=1 ) LIMIT 1   [ RunTime:0.032807s ]
+SQL: SELECT `title` FROM `gjw_area` WHERE ( area_id=150500 ) LIMIT 1   [ RunTime:0.032402s ]
+SQL: SELECT `title` FROM `gjw_area` WHERE ( area_id=150523 ) LIMIT 1   [ RunTime:0.032492s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_new_images` [ RunTime:0.032827s ]
+SQL: SELECT `img_path` FROM `gjw_jjw_new_images` WHERE ( u_id=1 and type=1 ) LIMIT 1   [ RunTime:0.033015s ]
+SQL: SELECT `img_path` FROM `gjw_jjw_new_images` WHERE ( u_id=1 and type=2 ) LIMIT 1   [ RunTime:0.033163s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000872s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002353s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\d278e6bf5e2b672db9da7a76be6ae9fd.php 第 5 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\d278e6bf5e2b672db9da7a76be6ae9fd.php 第 462 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\d278e6bf5e2b672db9da7a76be6ae9fd.php 第 467 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\d278e6bf5e2b672db9da7a76be6ae9fd.php 第 497 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\d278e6bf5e2b672db9da7a76be6ae9fd.php 第 502 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.225297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.229182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003573s ]
+
+[ 2018-06-30T18:26:18+08:00 ] 127.0.0.1 /index.php?s=/Admin/Merchant/myuser.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.033512s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032554s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%Merchant/myuser%' ) LIMIT 1   [ RunTime:0.032623s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032712s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=149 ) LIMIT 1   [ RunTime:0.032328s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.033362s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 147 )  [ RunTime:0.032936s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 147 ) AND ( `hide` = 0 )  [ RunTime:0.032867s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '店铺相关' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.033434s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '会员管理' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.033639s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '数据统计' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032277s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '活动管理' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032895s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '隐藏' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.033000s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '2324' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031982s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.032802s ]
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=1 ) LIMIT 1   [ RunTime:0.033006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM gjw_jjw_userinfo ui left join gjw_user as u ON u.uid=ui.uid  WHERE ( ui.referrer_store_id=1 OR u.stair_id=1 ) LIMIT 1   [ RunTime:0.033246s ]
+SQL: SELECT ui.*,u.stair_id FROM gjw_jjw_userinfo ui left join gjw_user as u ON u.uid=ui.uid  WHERE ( ui.referrer_store_id=1 OR u.stair_id=1 ) ORDER BY id desc LIMIT 0,10   [ RunTime:0.033166s ]
+SQL: SELECT `realname` FROM `gjw_jjw_userinfo` WHERE ( store_id=1 ) LIMIT 1   [ RunTime:0.032190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000731s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002482s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\db87685e7fec7fa945b840554407e18b.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.187722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.190038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003357s ]
+
+[ 2018-06-30T18:26:21+08:00 ] 127.0.0.1 /index.php?s=/Admin/Merchant/index.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.031578s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030142s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%Merchant/index%' ) LIMIT 1   [ RunTime:0.029296s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.029821s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.029579s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 147 )  [ RunTime:0.030603s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 147 ) AND ( `hide` = 0 )  [ RunTime:0.030014s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '店铺相关' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029590s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '会员管理' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029544s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '数据统计' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029557s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '活动管理' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029410s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '隐藏' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029913s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '2324' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030466s ]
+SQL: SHOW COLUMNS FROM `gjw_area` [ RunTime:0.030849s ]
+SQL: SELECT * FROM `gjw_area` WHERE ( pid=0 )  [ RunTime:0.030869s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.031311s ]
+SQL: SELECT `id` FROM `gjw_jjw_userinfo` WHERE ( store_id=1 ) LIMIT 1   [ RunTime:0.029784s ]
+SQL: SELECT `title` FROM `gjw_area` WHERE ( area_id=150500 ) LIMIT 1   [ RunTime:0.029663s ]
+SQL: SELECT `title` FROM `gjw_area` WHERE ( area_id=150523 ) LIMIT 1   [ RunTime:0.030003s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_new_images` [ RunTime:0.030457s ]
+SQL: SELECT `img_path` FROM `gjw_jjw_new_images` WHERE ( u_id=1 and type=1 ) LIMIT 1   [ RunTime:0.030707s ]
+SQL: SELECT `img_path` FROM `gjw_jjw_new_images` WHERE ( u_id=1 and type=2 ) LIMIT 1   [ RunTime:0.030904s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000869s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002359s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\d278e6bf5e2b672db9da7a76be6ae9fd.php 第 5 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\d278e6bf5e2b672db9da7a76be6ae9fd.php 第 462 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\d278e6bf5e2b672db9da7a76be6ae9fd.php 第 467 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\d278e6bf5e2b672db9da7a76be6ae9fd.php 第 497 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\d278e6bf5e2b672db9da7a76be6ae9fd.php 第 502 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.218540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.222229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005849s ]
+
+[ 2018-06-30T18:49:45+08:00 ] 127.0.0.1 /index.php?s=/Admin/Merchant/index.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.033679s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032032s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%Merchant/index%' ) LIMIT 1   [ RunTime:0.031632s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032427s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.032033s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 147 )  [ RunTime:0.031889s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 147 ) AND ( `hide` = 0 )  [ RunTime:0.033253s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '店铺相关' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.045472s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '会员管理' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.037375s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '数据统计' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.036147s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '活动管理' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.039117s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '隐藏' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.034439s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '2324' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.037282s ]
+SQL: SHOW COLUMNS FROM `gjw_area` [ RunTime:0.037395s ]
+SQL: SELECT * FROM `gjw_area` WHERE ( pid=0 )  [ RunTime:0.034261s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.045416s ]
+SQL: SELECT `id` FROM `gjw_jjw_userinfo` WHERE ( store_id=1 ) LIMIT 1   [ RunTime:0.032371s ]
+SQL: SELECT `title` FROM `gjw_area` WHERE ( area_id=150500 ) LIMIT 1   [ RunTime:0.032240s ]
+SQL: SELECT `title` FROM `gjw_area` WHERE ( area_id=150523 ) LIMIT 1   [ RunTime:0.033111s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_new_images` [ RunTime:0.036299s ]
+SQL: SELECT `img_path` FROM `gjw_jjw_new_images` WHERE ( u_id=1 and type=1 ) LIMIT 1   [ RunTime:0.042865s ]
+SQL: SELECT `img_path` FROM `gjw_jjw_new_images` WHERE ( u_id=1 and type=2 ) LIMIT 1   [ RunTime:0.034229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000875s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003029s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\d278e6bf5e2b672db9da7a76be6ae9fd.php 第 5 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\d278e6bf5e2b672db9da7a76be6ae9fd.php 第 462 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\d278e6bf5e2b672db9da7a76be6ae9fd.php 第 467 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\d278e6bf5e2b672db9da7a76be6ae9fd.php 第 497 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\d278e6bf5e2b672db9da7a76be6ae9fd.php 第 502 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.205804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.208611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006115s ]
+
+[ 2018-06-30T20:56:21+08:00 ] 127.0.0.1 /index.php?s=/Admin/Merchant/index.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.031599s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031743s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%Merchant/index%' ) LIMIT 1   [ RunTime:0.031131s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.031652s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=147 ) LIMIT 1   [ RunTime:0.031023s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 147 )  [ RunTime:0.031115s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 147 ) AND ( `hide` = 0 )  [ RunTime:0.030697s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '店铺相关' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030967s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '会员管理' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031426s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '数据统计' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031074s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '活动管理' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031031s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '隐藏' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031016s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '2324' ) AND ( `url` IN ('Merchant/index','Merchant/myuser','Merchant/consumeList','Merchant/activitylist','Merchant/couponlist') ) AND ( `pid` = 147 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030899s ]
+SQL: SHOW COLUMNS FROM `gjw_area` [ RunTime:0.030803s ]
+SQL: SELECT * FROM `gjw_area` WHERE ( pid=0 )  [ RunTime:0.030818s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.032020s ]
+SQL: SELECT `id` FROM `gjw_jjw_userinfo` WHERE ( store_id=1 ) LIMIT 1   [ RunTime:0.030708s ]
+SQL: SELECT `title` FROM `gjw_area` WHERE ( area_id=150500 ) LIMIT 1   [ RunTime:0.030243s ]
+SQL: SELECT `title` FROM `gjw_area` WHERE ( area_id=150523 ) LIMIT 1   [ RunTime:0.031591s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_new_images` [ RunTime:0.031874s ]
+SQL: SELECT `img_path` FROM `gjw_jjw_new_images` WHERE ( u_id=1 and type=1 ) LIMIT 1   [ RunTime:0.031157s ]
+SQL: SELECT `img_path` FROM `gjw_jjw_new_images` WHERE ( u_id=1 and type=2 ) LIMIT 1   [ RunTime:0.031725s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001411s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004238s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\d278e6bf5e2b672db9da7a76be6ae9fd.php 第 5 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\d278e6bf5e2b672db9da7a76be6ae9fd.php 第 462 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\d278e6bf5e2b672db9da7a76be6ae9fd.php 第 467 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\d278e6bf5e2b672db9da7a76be6ae9fd.php 第 497 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\jjw\Runtime\Cache\Admin\d278e6bf5e2b672db9da7a76be6ae9fd.php 第 502 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.225976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.230088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004300s ]
+

@@ -1,0 +1,19 @@
+.outside {
+    width: 70px;
+    height: 25px;
+    background: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    position:relative;
+}
+
+.inside {
+    width: 30px;
+    height: 23px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    position:absolute;
+    top:0;
+    left:0;
+}

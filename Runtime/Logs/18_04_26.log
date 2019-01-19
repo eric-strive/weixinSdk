@@ -1,0 +1,1609 @@
+[ 2018-04-26T08:18:12+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.002158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006293s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.061846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006469s ]
+
+[ 2018-04-26T08:18:15+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006654s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.031849s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.032074s ]
+
+[ 2018-04-26T08:18:17+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005217s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.032635s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.032860s ]
+
+[ 2018-04-26T08:20:20+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001483s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004939s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.071713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.004541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011536s ]
+
+[ 2018-04-26T08:20:22+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005425s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.031725s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.034537s ]
+
+[ 2018-04-26T08:20:24+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006591s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.033995s ]
+SQL: SELECT * FROM `gjw_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.032108s ]
+
+[ 2018-04-26T08:22:24+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005777s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.032994s ]
+SQL: SHOW COLUMNS FROM `gjw_member` [ RunTime:0.030408s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status` FROM `gjw_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.030211s ]
+SQL: SHOW COLUMNS FROM `gjw_action` [ RunTime:0.030520s ]
+SQL: SELECT * FROM `gjw_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.029994s ]
+SQL: SHOW COLUMNS FROM `gjw_action_log` [ RunTime:0.030059s ]
+SQL: INSERT INTO `gjw_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (1,1,2130706433,'member',1,1524702143,'admin在2018-04-26 08:22登录了后台') [ RunTime:0.029680s ]
+SQL: SELECT * FROM `gjw_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.029810s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\jjw\Application\Common\Common\function.php 第 665 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\wamp\www\jjw\Application\Common\Common\function.php 第 665 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_action_log` WHERE ( `action_id` = 1 ) AND ( `user_id` = 1 ) AND ( `create_time` > 1524615743 ) LIMIT 1   [ RunTime:0.030039s ]
+SQL: UPDATE `gjw_member` SET `login`=`login`+1,`last_login_time`=1524702143,`last_login_ip`='2130706433' WHERE ( `uid` = 1 ) [ RunTime:0.029657s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_store` [ RunTime:0.030379s ]
+SQL: SELECT * FROM `gjw_jjw_store` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.030637s ]
+
+[ 2018-04-26T08:22:25+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/index.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030843s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030610s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/index%' ) LIMIT 1   [ RunTime:0.030224s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030847s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=173 ) LIMIT 1   [ RunTime:0.030434s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 173 )  [ RunTime:0.030344s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 173 ) AND ( `hide` = 0 )  [ RunTime:0.030494s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '商品管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030632s ]
+SQL: SHOW COLUMNS FROM `gjw_yzg_use_remark` [ RunTime:0.031223s ]
+NOTIC: [8] Undefined index: where D:\wamp\www\jjw\Application\Admin\Controller\AdminController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_yzg_use_remark` LIMIT 1   [ RunTime:0.030305s ]
+SQL: SELECT `id`,`name`,`url_path`,`remark`,`create_at` FROM `gjw_yzg_use_remark` ORDER BY id desc LIMIT 0,10   [ RunTime:0.030624s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001545s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004825s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.288068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.291384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006789s ]
+
+[ 2018-04-26T08:22:54+08:00 ] 127.0.0.1 /index.php?s=/Admin/User/index.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030465s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030600s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%User/index%' ) LIMIT 1   [ RunTime:0.029908s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.031233s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.030069s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 16 )  [ RunTime:0.030313s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 16 ) AND ( `hide` = 0 )  [ RunTime:0.030588s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '用户管理' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030349s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '行为管理' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030267s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030414s ]
+SQL: SHOW COLUMNS FROM `gjw_member` [ RunTime:0.031084s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_member` WHERE ( `status` >= 0 ) AND ( `nickname` LIKE '%%' ) LIMIT 1   [ RunTime:0.030327s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status` FROM `gjw_member` WHERE ( `status` >= 0 ) AND ( `nickname` LIKE '%%' ) ORDER BY uid desc LIMIT 0,10   [ RunTime:0.030562s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001618s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005014s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.406702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.410012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001920s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005703s ]
+
+[ 2018-04-26T08:23:10+08:00 ] 127.0.0.1 /index.php?s=/Admin/User/updatePassword.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032175s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032210s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%User/updatepassword%' ) LIMIT 1   [ RunTime:0.031788s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032100s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=108 ) LIMIT 1   [ RunTime:0.031574s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.031551s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 16 )  [ RunTime:0.031696s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 16 ) AND ( `hide` = 0 )  [ RunTime:0.031694s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '用户管理' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031768s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '行为管理' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031683s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '' ) AND ( `pid` = 16 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031595s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001671s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005259s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.300193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.303683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008268s ]
+
+[ 2018-04-26T08:23:27+08:00 ] 127.0.0.1 /index.php?s=/Admin/User/submitPassword.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005518s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030831s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030372s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%User/submitpassword%' ) LIMIT 1   [ RunTime:0.030148s ]
+SQL: SHOW COLUMNS FROM `gjw_ucenter_member` [ RunTime:0.030740s ]
+SQL: SELECT `password` FROM `gjw_ucenter_member` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.030095s ]
+
+[ 2018-04-26T08:23:50+08:00 ] 127.0.0.1 /index.php?s=/Admin/Config/group.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030305s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030371s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%Config/group%' ) LIMIT 1   [ RunTime:0.029576s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030405s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.029780s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 68 )  [ RunTime:0.029933s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.029799s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030214s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030367s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029967s ]
+SQL: SHOW COLUMNS FROM `gjw_config` [ RunTime:0.030409s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `gjw_config` WHERE ( `status` = 1 ) AND ( `group` = 1 ) ORDER BY sort  [ RunTime:0.030293s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001611s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004980s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.359054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.362684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001851s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002163s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006004s ]
+
+[ 2018-04-26T08:24:02+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/index.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.031074s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030650s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%Menu/index%' ) LIMIT 1   [ RunTime:0.030380s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030971s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.030320s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.030430s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 68 )  [ RunTime:0.030615s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.030391s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030809s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030397s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030439s ]
+SQL: SELECT `id`,`title` FROM `gjw_menu`  [ RunTime:0.031943s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `gjw_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.030934s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001635s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005077s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.671422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.674902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007164s ]
+
+[ 2018-04-26T08:24:04+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/index.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.031839s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031795s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%Menu/index%' ) LIMIT 1   [ RunTime:0.031309s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032282s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.031150s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.031272s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 68 )  [ RunTime:0.031607s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.036756s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031431s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031550s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031792s ]
+SQL: SELECT `id`,`title` FROM `gjw_menu`  [ RunTime:0.033205s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `gjw_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.031926s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001756s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005173s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.611081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.615863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006182s ]
+
+[ 2018-04-26T08:24:05+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/index.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.034166s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.033908s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%Menu/index%' ) LIMIT 1   [ RunTime:0.033323s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.034242s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.033566s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.033483s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 68 )  [ RunTime:0.033667s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.033466s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.033707s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.033634s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.033477s ]
+SQL: SELECT `id`,`title` FROM `gjw_menu`  [ RunTime:0.035066s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `gjw_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.034164s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001666s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005867s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.557777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.561464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005361s ]
+
+[ 2018-04-26T08:24:06+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/index.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032546s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031976s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%Menu/index%' ) LIMIT 1   [ RunTime:0.031553s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032036s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.031582s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.031747s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 68 )  [ RunTime:0.032325s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.031690s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031704s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031642s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032292s ]
+SQL: SELECT `id`,`title` FROM `gjw_menu`  [ RunTime:0.033065s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `gjw_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.032948s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001678s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005038s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.537521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.540963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004904s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005249s ]
+
+[ 2018-04-26T08:24:07+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/index.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030786s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030421s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%Menu/index%' ) LIMIT 1   [ RunTime:0.030458s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030737s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.030462s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.030466s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 68 )  [ RunTime:0.030054s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.030594s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030423s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030600s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030174s ]
+SQL: SELECT `id`,`title` FROM `gjw_menu`  [ RunTime:0.032069s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `gjw_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.030959s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001598s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004879s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.533323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.536712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006840s ]
+
+[ 2018-04-26T08:24:39+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/edit/id/138.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032348s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032146s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%Menu/edit%' ) LIMIT 1   [ RunTime:0.031738s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032416s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=98 ) LIMIT 1   [ RunTime:0.031881s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.031761s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.031818s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 68 )  [ RunTime:0.032163s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.032503s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032001s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031933s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031945s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `gjw_menu` WHERE ( `id` = 138 ) LIMIT 1   [ RunTime:0.031974s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `gjw_menu`  [ RunTime:0.034695s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001577s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004936s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.292870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.296255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005989s ]
+
+[ 2018-04-26T08:25:01+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005260s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032851s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032623s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%Menu/edit%' ) LIMIT 1   [ RunTime:0.032270s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032767s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=98 ) LIMIT 1   [ RunTime:0.032189s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.032621s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.031987s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 68 )  [ RunTime:0.031991s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.032710s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032225s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032098s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032347s ]
+SQL: UPDATE `gjw_menu` SET `title`='平台管理',`sort`=9,`url`='Shop/index',`pid`=0,`group`='',`hide`=0,`is_dev`=0,`tip`='' WHERE ( `id` = 138 ) [ RunTime:0.032025s ]
+SQL: SHOW COLUMNS FROM `gjw_action` [ RunTime:0.032645s ]
+SQL: SELECT * FROM `gjw_action` WHERE ( `name` = 'update_menu' ) LIMIT 1   [ RunTime:0.032836s ]
+SQL: SHOW COLUMNS FROM `gjw_action_log` [ RunTime:0.032601s ]
+SQL: INSERT INTO `gjw_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (10,1,2130706433,'Menu',138,1524702300,'操作url：/index.php?s=/Admin/Menu/edit.html') [ RunTime:0.032367s ]
+
+[ 2018-04-26T08:25:04+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/index.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030991s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031004s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%Menu/index%' ) LIMIT 1   [ RunTime:0.030130s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030480s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.030043s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.029997s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 68 )  [ RunTime:0.030673s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.030095s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030297s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030262s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030323s ]
+SQL: SELECT `id`,`title` FROM `gjw_menu`  [ RunTime:0.031699s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `gjw_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.030483s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001681s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005108s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.545007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.548309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005559s ]
+
+[ 2018-04-26T08:25:12+08:00 ] 127.0.0.1 /index.php?s=/Admin/Shop/index.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030315s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029872s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%Shop/index%' ) LIMIT 1   [ RunTime:0.029337s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.029999s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=138 ) LIMIT 1   [ RunTime:0.029176s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 138 )  [ RunTime:0.029439s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 138 ) AND ( `hide` = 0 )  [ RunTime:0.029799s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '店铺管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029416s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '会员管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029665s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '利润分配管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029575s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '活动管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029906s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '广告管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030008s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_store` [ RunTime:0.029652s ]
+SQL: SELECT * FROM `gjw_jjw_store`  [ RunTime:0.030610s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.029723s ]
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=4 ) LIMIT 1   [ RunTime:0.029276s ]
+SQL: SHOW COLUMNS FROM `gjw_user` [ RunTime:0.029950s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid=10022 ) LIMIT 1   [ RunTime:0.029102s ]
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=5 ) LIMIT 1   [ RunTime:0.029129s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.029041s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=7 ) LIMIT 1   [ RunTime:0.028954s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid=10026 ) LIMIT 1   [ RunTime:0.029732s ]
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=8 ) LIMIT 1   [ RunTime:0.029171s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid=10045 ) LIMIT 1   [ RunTime:0.028937s ]
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=9 ) LIMIT 1   [ RunTime:0.029215s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.028892s ]
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=10 ) LIMIT 1   [ RunTime:0.029260s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid=10129 ) LIMIT 1   [ RunTime:0.028976s ]
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=11 ) LIMIT 1   [ RunTime:0.029105s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.029679s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=14 ) LIMIT 1   [ RunTime:0.029803s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.029031s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=15 ) LIMIT 1   [ RunTime:0.029341s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.029074s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=16 ) LIMIT 1   [ RunTime:0.029801s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.028881s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=17 ) LIMIT 1   [ RunTime:0.029296s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.029054s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=18 ) LIMIT 1   [ RunTime:0.029082s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.028930s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=19 ) LIMIT 1   [ RunTime:0.029048s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.029068s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001612s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005044s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 5 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined variable: _page D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 153 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.469163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.472627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007091s ]
+
+[ 2018-04-26T08:25:31+08:00 ] 127.0.0.1 /index.php?s=/Admin/Shop/index.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030145s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029974s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%Shop/index%' ) LIMIT 1   [ RunTime:0.029561s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030269s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=138 ) LIMIT 1   [ RunTime:0.029471s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 138 )  [ RunTime:0.029584s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 138 ) AND ( `hide` = 0 )  [ RunTime:0.029628s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '店铺管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029686s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '会员管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029660s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '利润分配管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029777s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '活动管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029786s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '广告管理' ) AND ( `pid` = 138 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029697s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_store` [ RunTime:0.030523s ]
+SQL: SELECT * FROM `gjw_jjw_store`  [ RunTime:0.031086s ]
+SQL: SHOW COLUMNS FROM `gjw_jjw_userinfo` [ RunTime:0.030103s ]
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=4 ) LIMIT 1   [ RunTime:0.029395s ]
+SQL: SHOW COLUMNS FROM `gjw_user` [ RunTime:0.030105s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid=10022 ) LIMIT 1   [ RunTime:0.029558s ]
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=5 ) LIMIT 1   [ RunTime:0.029495s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.029348s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=7 ) LIMIT 1   [ RunTime:0.029968s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid=10026 ) LIMIT 1   [ RunTime:0.029208s ]
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=8 ) LIMIT 1   [ RunTime:0.030023s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid=10045 ) LIMIT 1   [ RunTime:0.030293s ]
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=9 ) LIMIT 1   [ RunTime:0.029272s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid=10046 ) LIMIT 1   [ RunTime:0.029401s ]
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=10 ) LIMIT 1   [ RunTime:0.030061s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid=10129 ) LIMIT 1   [ RunTime:0.030125s ]
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=11 ) LIMIT 1   [ RunTime:0.029352s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.029837s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=14 ) LIMIT 1   [ RunTime:0.029833s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.029373s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=15 ) LIMIT 1   [ RunTime:0.029970s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.029145s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=16 ) LIMIT 1   [ RunTime:0.029830s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.029446s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=17 ) LIMIT 1   [ RunTime:0.029974s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.029255s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=18 ) LIMIT 1   [ RunTime:0.029920s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.029389s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+SQL: SELECT `uid` FROM `gjw_jjw_userinfo` WHERE ( store_id=19 ) LIMIT 1   [ RunTime:0.029946s ]
+SQL: SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1   [ RunTime:0.029308s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `referrer_user` FROM `gjw_user` WHERE ( uid= ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001591s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004864s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 5 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 130 行.
+NOTIC: [8] Undefined variable: _page D:\wamp\www\jjw\Runtime\Cache\Admin\52fa67f14c08742f6c521ab8140bab06.php 第 153 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.462760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.466054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005436s ]
+
+[ 2018-04-26T08:25:38+08:00 ] 127.0.0.1 /index.php?s=/Admin/Config/group.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.033127s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032341s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%Config/group%' ) LIMIT 1   [ RunTime:0.032196s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032632s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.032148s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 68 )  [ RunTime:0.032321s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.032350s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032459s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032663s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032218s ]
+SQL: SHOW COLUMNS FROM `gjw_config` [ RunTime:0.032865s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `gjw_config` WHERE ( `status` = 1 ) AND ( `group` = 1 ) ORDER BY sort  [ RunTime:0.032760s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001621s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004975s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.350236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.353527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002202s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005933s ]
+
+[ 2018-04-26T08:25:43+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/index.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032449s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032139s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%Menu/index%' ) LIMIT 1   [ RunTime:0.031761s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032101s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.031923s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.031676s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 68 )  [ RunTime:0.031823s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.031881s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031634s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032450s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031681s ]
+SQL: SELECT `id`,`title` FROM `gjw_menu`  [ RunTime:0.033241s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `gjw_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.032115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001682s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005030s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.545118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.549238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005857s ]
+
+[ 2018-04-26T08:25:53+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/edit/id/138.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.031482s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031455s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%Menu/edit%' ) LIMIT 1   [ RunTime:0.030905s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.031663s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=98 ) LIMIT 1   [ RunTime:0.030925s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.030967s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.030729s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 68 )  [ RunTime:0.030886s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.030642s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030921s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030723s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030960s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `gjw_menu` WHERE ( `id` = 138 ) LIMIT 1   [ RunTime:0.031127s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `gjw_menu`  [ RunTime:0.033714s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001567s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004903s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.294382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.297652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007420s ]
+
+[ 2018-04-26T08:25:57+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005364s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032907s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032828s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%Menu/edit%' ) LIMIT 1   [ RunTime:0.032504s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.033141s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=98 ) LIMIT 1   [ RunTime:0.032132s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.032172s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.032138s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 68 )  [ RunTime:0.032209s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.032414s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032139s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032445s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032411s ]
+SQL: UPDATE `gjw_menu` SET `title`='平台管理',`sort`=9,`url`='Shop/index',`pid`=0,`group`='',`hide`=1,`is_dev`=0,`tip`='' WHERE ( `id` = 138 ) [ RunTime:0.032089s ]
+SQL: SHOW COLUMNS FROM `gjw_action` [ RunTime:0.033028s ]
+SQL: SELECT * FROM `gjw_action` WHERE ( `name` = 'update_menu' ) LIMIT 1   [ RunTime:0.032505s ]
+SQL: SHOW COLUMNS FROM `gjw_action_log` [ RunTime:0.032952s ]
+SQL: INSERT INTO `gjw_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (10,1,2130706433,'Menu',138,1524702356,'操作url：/index.php?s=/Admin/Menu/edit.html') [ RunTime:0.032162s ]
+
+[ 2018-04-26T08:26:00+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/index.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030020s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030263s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%Menu/index%' ) LIMIT 1   [ RunTime:0.030034s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030040s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.029402s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.029842s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 68 )  [ RunTime:0.029666s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.029613s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029586s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029490s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029662s ]
+SQL: SELECT `id`,`title` FROM `gjw_menu`  [ RunTime:0.031135s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `gjw_menu` WHERE ( `pid` = 0 ) ORDER BY sort asc,id asc  [ RunTime:0.029996s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001685s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005055s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.543930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.547492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001751s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005459s ]
+
+[ 2018-04-26T08:26:03+08:00 ] 127.0.0.1 /index.php?s=/Admin/Menu/index/pid/173.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.031539s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030268s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%Menu/index%' ) LIMIT 1   [ RunTime:0.029936s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030812s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.029882s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.029964s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 68 )  [ RunTime:0.030271s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.030053s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030365s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030065s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030309s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `gjw_menu` WHERE ( id=173 ) LIMIT 1   [ RunTime:0.030331s ]
+SQL: SELECT `id`,`title` FROM `gjw_menu`  [ RunTime:0.032040s ]
+SQL: SELECT `id`,`title`,`pid`,`sort`,`url`,`hide`,`tip`,`group`,`is_dev` FROM `gjw_menu` WHERE ( `pid` = 173 ) ORDER BY sort asc,id asc  [ RunTime:0.030844s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001608s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004915s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.324371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.327794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006786s ]
+
+[ 2018-04-26T08:30:12+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/index.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032834s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032338s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/index%' ) LIMIT 1   [ RunTime:0.031823s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032455s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=173 ) LIMIT 1   [ RunTime:0.031708s ]
+SQL: SELECT DISTINCT  `group` FROM `gjw_menu` WHERE ( pid = 173 )  [ RunTime:0.031630s ]
+SQL: SELECT `id`,`url` FROM `gjw_menu` WHERE ( `pid` = 173 ) AND ( `hide` = 0 )  [ RunTime:0.032721s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `gjw_menu` WHERE ( `group` = '商品管理' ) AND ( `pid` = 173 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032024s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods` [ RunTime:0.033733s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_category` [ RunTime:0.032318s ]
+NOTIC: [8] Undefined index: where D:\wamp\www\jjw\Application\Admin\Controller\AdminController.class.php 第 436 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_shopping_goods` LIMIT 1   [ RunTime:0.031496s ]
+SQL: SELECT `product_id`,`code`,`supplier_name`,`store`,`freight_fee`,`sales_num`,`category_id`,`name`,`unit`,`net_content`,`shop_price`,`market_price`,`weight`,`ctime` FROM `gjw_shopping_goods` ORDER BY ctime desc LIMIT 0,10   [ RunTime:0.033003s ]
+SQL: SELECT `name` FROM `gjw_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.032015s ]
+SQL: SELECT `name` FROM `gjw_shopping_goods_category` WHERE ( category_id=38 ) LIMIT 1   [ RunTime:0.031792s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001582s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004870s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 5 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 126 行.
+NOTIC: [8] Undefined index: create_at D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 128 行.
+NOTIC: [8] Undefined index: remark D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 129 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 131 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 132 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 126 行.
+NOTIC: [8] Undefined index: create_at D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 128 行.
+NOTIC: [8] Undefined index: remark D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 129 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 131 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\jjw\Runtime\Cache\Admin\f62562b40757186185df0e5ece03d9a9.php 第 132 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.458350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.464746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009989s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006724s ]
+
+[ 2018-04-26T08:30:17+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/Categorylist
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.034831s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.033338s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/categorylist%' ) LIMIT 1   [ RunTime:0.032938s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_category` [ RunTime:0.033819s ]
+SQL: SHOW COLUMNS FROM `gjw_product` [ RunTime:0.032601s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gjw_product`
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.033139s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032357s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032642s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032927s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032071s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031907s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032461s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1  
+ERR: 模板不存在:./Application/Admin/View/ShoppingMall/categorylist.html
+
+[ 2018-04-26T08:30:49+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/Categorylist
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.034728s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.034637s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/categorylist%' ) LIMIT 1   [ RunTime:0.033935s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_category` [ RunTime:0.034718s ]
+SQL: SHOW COLUMNS FROM `gjw_product` [ RunTime:0.034070s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gjw_product`
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.034219s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.033780s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.033518s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.033955s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.033890s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.033581s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.033770s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/mainTitle.html): failed to open stream: No such file or directory D:\wamp\www\jjw\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.002080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005952s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 5 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 140 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 148 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 149 行.
+NOTIC: [8] Undefined index: start D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 156 行.
+NOTIC: [8] Undefined index: end D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 158 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 285 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.374048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.378761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001945s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008440s ]
+
+[ 2018-04-26T08:30:52+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/Categoryadd/pid/40.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.031781s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.031432s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/categoryadd%' ) LIMIT 1   [ RunTime:0.031040s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.031854s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=179 ) LIMIT 1   [ RunTime:0.031381s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=175 ) LIMIT 1   [ RunTime:0.031294s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/mainTitle.html): failed to open stream: No such file or directory D:\wamp\www\jjw\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.002937s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.009234s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\c0ac5734c99c1eca70e72a4d89ac55a5.php 第 5 行.
+NOTIC: [8] Use of undefined constant Categoryadd - assumed 'Categoryadd' D:\wamp\www\jjw\Runtime\Cache\Admin\c0ac5734c99c1eca70e72a4d89ac55a5.php 第 102 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\jjw\Runtime\Cache\Admin\c0ac5734c99c1eca70e72a4d89ac55a5.php 第 104 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\jjw\Runtime\Cache\Admin\c0ac5734c99c1eca70e72a4d89ac55a5.php 第 108 行.
+NOTIC: [8] Undefined index: is_shopping D:\wamp\www\jjw\Runtime\Cache\Admin\c0ac5734c99c1eca70e72a4d89ac55a5.php 第 115 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\c0ac5734c99c1eca70e72a4d89ac55a5.php 第 125 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.409720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.415942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013346s ]
+
+[ 2018-04-26T08:33:04+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/Categorylist
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.034182s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.033848s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/categorylist%' ) LIMIT 1   [ RunTime:0.033076s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_category` [ RunTime:0.034309s ]
+SQL: SHOW COLUMNS FROM `gjw_product` [ RunTime:0.032844s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gjw_product`
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032683s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032256s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032342s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.033468s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032254s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032303s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032422s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/mainTitle.html): failed to open stream: No such file or directory D:\wamp\www\jjw\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.003105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.009473s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 5 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 140 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 148 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 149 行.
+NOTIC: [8] Undefined index: start D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 156 行.
+NOTIC: [8] Undefined index: end D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 158 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 285 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.463101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.469510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.007141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013867s ]
+
+[ 2018-04-26T08:33:42+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/Categorylist
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030796s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029884s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/categorylist%' ) LIMIT 1   [ RunTime:0.029296s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_category` [ RunTime:0.030442s ]
+SQL: SHOW COLUMNS FROM `gjw_product` [ RunTime:0.030017s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gjw_product`
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.030046s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.029966s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.029584s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.030101s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.029937s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.029761s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.030063s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/mainTitle.html): failed to open stream: No such file or directory D:\wamp\www\jjw\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.002048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006098s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 5 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 140 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 148 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 149 行.
+NOTIC: [8] Undefined index: start D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 156 行.
+NOTIC: [8] Undefined index: end D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 158 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 285 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.360660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.366617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008156s ]
+
+[ 2018-04-26T08:33:50+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/Categorylist
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.029885s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.029607s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/categorylist%' ) LIMIT 1   [ RunTime:0.030224s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_category` [ RunTime:0.029835s ]
+SQL: SHOW COLUMNS FROM `gjw_product` [ RunTime:0.033458s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gjw_product`
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.029063s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.028223s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.028880s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.028300s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.028988s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.029098s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.028205s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/mainTitle.html): failed to open stream: No such file or directory D:\wamp\www\jjw\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.002025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006691s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 5 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 140 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 148 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 149 行.
+NOTIC: [8] Undefined index: start D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 156 行.
+NOTIC: [8] Undefined index: end D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 158 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 285 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.494454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.499935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.008514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018194s ]
+
+[ 2018-04-26T08:34:42+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/Categorylist
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.033895s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.033220s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/categorylist%' ) LIMIT 1   [ RunTime:0.032843s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_category` [ RunTime:0.033730s ]
+SQL: SHOW COLUMNS FROM `gjw_product` [ RunTime:0.033082s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gjw_product`
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032552s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032010s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031760s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032400s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032305s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031883s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031889s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/mainTitle.html): failed to open stream: No such file or directory D:\wamp\www\jjw\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001626s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004968s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 5 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 140 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 148 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 149 行.
+NOTIC: [8] Undefined index: start D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 156 行.
+NOTIC: [8] Undefined index: end D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 158 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 285 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.344538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.351037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.005424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013559s ]
+
+[ 2018-04-26T08:35:07+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/Categorylist
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.031121s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030273s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/categorylist%' ) LIMIT 1   [ RunTime:0.030085s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_category` [ RunTime:0.030631s ]
+SQL: SHOW COLUMNS FROM `gjw_product` [ RunTime:0.029982s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gjw_product`
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.030554s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.030121s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.030204s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.029471s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.029972s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.029330s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.029863s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/mainTitle.html): failed to open stream: No such file or directory D:\wamp\www\jjw\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.003397s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.011998s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 5 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 140 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 148 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 149 行.
+NOTIC: [8] Undefined index: start D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 156 行.
+NOTIC: [8] Undefined index: end D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 158 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 285 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.428728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.435097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.006098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013136s ]
+
+[ 2018-04-26T08:35:17+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/Categorylist
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030881s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030475s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/categorylist%' ) LIMIT 1   [ RunTime:0.029880s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_category` [ RunTime:0.030462s ]
+SQL: SHOW COLUMNS FROM `gjw_product` [ RunTime:0.030229s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gjw_product`
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.029825s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.028693s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.028992s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.029255s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.029444s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.029548s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.028811s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/mainTitle.html): failed to open stream: No such file or directory D:\wamp\www\jjw\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001847s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005679s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 5 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 140 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 148 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 149 行.
+NOTIC: [8] Undefined index: start D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 156 行.
+NOTIC: [8] Undefined index: end D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 158 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 285 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.357231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.362372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.007404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013341s ]
+
+[ 2018-04-26T08:35:30+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/Categorylist
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.033243s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032431s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/categorylist%' ) LIMIT 1   [ RunTime:0.032022s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_category` [ RunTime:0.034232s ]
+SQL: SHOW COLUMNS FROM `gjw_product` [ RunTime:0.032296s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gjw_product`
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032610s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031691s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031857s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031767s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031311s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031384s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031507s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/mainTitle.html): failed to open stream: No such file or directory D:\wamp\www\jjw\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001745s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005266s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 5 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 140 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 148 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 149 行.
+NOTIC: [8] Undefined index: start D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 156 行.
+NOTIC: [8] Undefined index: end D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 158 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 285 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.281489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.284892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008629s ]
+
+[ 2018-04-26T08:35:51+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/Categorylist
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.035289s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.035314s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/categorylist%' ) LIMIT 1   [ RunTime:0.034146s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_category` [ RunTime:0.035690s ]
+SQL: SHOW COLUMNS FROM `gjw_product` [ RunTime:0.034895s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gjw_product`
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.035236s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.034334s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.034593s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.034238s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.034433s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.034524s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.034218s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/mainTitle.html): failed to open stream: No such file or directory D:\wamp\www\jjw\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001832s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005661s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 5 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 140 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 148 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 149 行.
+NOTIC: [8] Undefined index: start D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 156 行.
+NOTIC: [8] Undefined index: end D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 158 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 285 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.382571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.387719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008568s ]
+
+[ 2018-04-26T08:36:00+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/Categorylist
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.034714s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.034171s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/categorylist%' ) LIMIT 1   [ RunTime:0.033611s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_category` [ RunTime:0.034473s ]
+SQL: SHOW COLUMNS FROM `gjw_product` [ RunTime:0.033407s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gjw_product`
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032720s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032807s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032554s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032589s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032577s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032851s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.033781s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/mainTitle.html): failed to open stream: No such file or directory D:\wamp\www\jjw\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001654s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004986s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 5 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 140 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 148 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 149 行.
+NOTIC: [8] Undefined index: start D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 156 行.
+NOTIC: [8] Undefined index: end D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 158 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 285 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.316988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.323366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009685s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007749s ]
+
+[ 2018-04-26T08:36:09+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/Categorylist
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032620s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032392s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/categorylist%' ) LIMIT 1   [ RunTime:0.032364s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_category` [ RunTime:0.033648s ]
+SQL: SHOW COLUMNS FROM `gjw_product` [ RunTime:0.032250s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gjw_product`
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031925s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031683s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031784s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.030780s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031639s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031189s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031787s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/mainTitle.html): failed to open stream: No such file or directory D:\wamp\www\jjw\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001605s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004927s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 5 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 140 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 148 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 149 行.
+NOTIC: [8] Undefined index: start D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 156 行.
+NOTIC: [8] Undefined index: end D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 158 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 285 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.298324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.303181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009070s ]
+
+[ 2018-04-26T08:38:01+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/Categorylist
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.033891s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.034178s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/categorylist%' ) LIMIT 1   [ RunTime:0.033545s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_category` [ RunTime:0.034307s ]
+SQL: SHOW COLUMNS FROM `gjw_product` [ RunTime:0.033184s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gjw_product`
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.033139s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032759s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032706s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.033105s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.044543s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031952s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032937s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/mainTitle.html): failed to open stream: No such file or directory D:\wamp\www\jjw\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.003070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.009505s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 5 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 140 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 148 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 149 行.
+NOTIC: [8] Undefined index: start D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 156 行.
+NOTIC: [8] Undefined index: end D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 158 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 285 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.324735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.329467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007602s ]
+
+[ 2018-04-26T08:38:22+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/Categorylist
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032176s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032182s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/categorylist%' ) LIMIT 1   [ RunTime:0.031833s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_category` [ RunTime:0.032296s ]
+SQL: SHOW COLUMNS FROM `gjw_product` [ RunTime:0.031388s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gjw_product`
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031690s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031642s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.030901s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031762s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031375s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.030427s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.030530s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/mainTitle.html): failed to open stream: No such file or directory D:\wamp\www\jjw\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.003083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.009990s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 5 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 140 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 148 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 149 行.
+NOTIC: [8] Undefined index: start D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 156 行.
+NOTIC: [8] Undefined index: end D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 158 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 285 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.420284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.425536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.004229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010995s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.006464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013772s ]
+
+[ 2018-04-26T08:38:30+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/Categorylist
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.030579s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030422s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/categorylist%' ) LIMIT 1   [ RunTime:0.029950s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_category` [ RunTime:0.031042s ]
+SQL: SHOW COLUMNS FROM `gjw_product` [ RunTime:0.029907s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gjw_product`
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.029717s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.029722s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.030004s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.029492s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.029608s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.029920s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.029468s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/mainTitle.html): failed to open stream: No such file or directory D:\wamp\www\jjw\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001964s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006114s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 5 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 140 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 148 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 149 行.
+NOTIC: [8] Undefined index: start D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 156 行.
+NOTIC: [8] Undefined index: end D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 158 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 285 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.433634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.439632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.004036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.008275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016758s ]
+
+[ 2018-04-26T08:38:35+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/Categoryadd/pid/40.html
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032355s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.030790s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/categoryadd%' ) LIMIT 1   [ RunTime:0.031935s ]
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.032232s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=179 ) LIMIT 1   [ RunTime:0.030881s ]
+SQL: SELECT `id`,`pid`,`title` FROM `gjw_menu` WHERE ( id=175 ) LIMIT 1   [ RunTime:0.031116s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/mainTitle.html): failed to open stream: No such file or directory D:\wamp\www\jjw\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001592s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005070s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\c0ac5734c99c1eca70e72a4d89ac55a5.php 第 5 行.
+NOTIC: [8] Use of undefined constant Categoryadd - assumed 'Categoryadd' D:\wamp\www\jjw\Runtime\Cache\Admin\c0ac5734c99c1eca70e72a4d89ac55a5.php 第 102 行.
+NOTIC: [8] Undefined index: category_id D:\wamp\www\jjw\Runtime\Cache\Admin\c0ac5734c99c1eca70e72a4d89ac55a5.php 第 104 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\jjw\Runtime\Cache\Admin\c0ac5734c99c1eca70e72a4d89ac55a5.php 第 108 行.
+NOTIC: [8] Undefined index: is_shopping D:\wamp\www\jjw\Runtime\Cache\Admin\c0ac5734c99c1eca70e72a4d89ac55a5.php 第 115 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\c0ac5734c99c1eca70e72a4d89ac55a5.php 第 125 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.289182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.293530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008246s ]
+
+[ 2018-04-26T08:38:39+08:00 ] 127.0.0.1 /index.php?s=/Admin/ShoppingMall/Categorylist
+SQL: SHOW COLUMNS FROM `gjw_menu` [ RunTime:0.033550s ]
+SQL: SELECT * FROM `gjw_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.032820s ]
+SQL: SELECT `id` FROM `gjw_menu` WHERE ( url like '%ShoppingMall/categorylist%' ) LIMIT 1   [ RunTime:0.032429s ]
+SQL: SHOW COLUMNS FROM `gjw_shopping_goods_category` [ RunTime:0.033259s ]
+SQL: SHOW COLUMNS FROM `gjw_product` [ RunTime:0.031799s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gjw_product`
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031581s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '40' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032440s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '41' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032092s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '32' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032792s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '37' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.031321s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '38' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.037269s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '29' ) AND ( `status` = 1 ) LIMIT 1  
+SQL: SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.032199s ]
+ERR: 1146:Table 'jjw.gjw_product' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gjw_product` WHERE ( `category_id` = '42' ) AND ( `status` = 1 ) LIMIT 1  
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Public/mainTitle.html): failed to open stream: No such file or directory D:\wamp\www\jjw\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.002637s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.008375s ]
+NOTIC: [8] Undefined variable: meta_title D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 5 行.
+NOTIC: [8] Undefined index: name D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 140 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 148 行.
+NOTIC: [8] Undefined index: status D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 149 行.
+NOTIC: [8] Undefined index: start D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 156 行.
+NOTIC: [8] Undefined index: end D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 158 行.
+NOTIC: [8] Undefined variable: info D:\wamp\www\jjw\Runtime\Cache\Admin\246bc3d693aa444b5683f098ec0eb2a6.php 第 285 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.438985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.443939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009492s ]
+
