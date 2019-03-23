@@ -4,7 +4,7 @@ use OT\DataDictionary;
 header("access-control-allow-origin:*");
 class EventController extends CommonController
 {
-    public $token = 'zhufubao';
+    public $token = 'xxxxxx';//与微信公众号后台设置保持一致
     /**
      * @return bool
      * @throws Exception
