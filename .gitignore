@@ -16,7 +16,7 @@ nbproject
 Thumbs.db
 
 # composer vendor dir
-#/vendor
+/vendor
 /backend/assets/adminlte/node_modules
 
 # composer itself is not needed
